@@ -1,0 +1,1318 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IMBluetoothKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import AVFoundation
+import CoreBluetooth
+import Foundation
+import RxRelay
+import RxSwift
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct BluetoothAudioPort : Swift::Equatable {
+  public let name: Swift::String
+  public let uid: Swift::String
+  public let type: Swift::String
+  public var deviceKey: Swift::String {
+    get
+  }
+  public static func normalizedAddress(in text: Swift::String) -> Swift::String?
+  public static func == (a: IMBluetoothKit::BluetoothAudioPort, b: IMBluetoothKit::BluetoothAudioPort) -> Swift::Bool
+}
+public struct AutoReconnectPolicy {
+  public var isEnabled: Swift::Bool
+  public var maxAttempts: Swift::Int?
+  public var initialDelay: Foundation::TimeInterval
+  public var maxDelay: Foundation::TimeInterval
+  public var backoffMultiplier: Swift::Double
+  public var retryOnConnectFailure: Swift::Bool
+  public init(isEnabled: Swift::Bool = true, maxAttempts: Swift::Int? = 3, initialDelay: Foundation::TimeInterval = 1.0, maxDelay: Foundation::TimeInterval = 30.0, backoffMultiplier: Swift::Double = 2.0, retryOnConnectFailure: Swift::Bool = true)
+  public static let `default`: IMBluetoothKit::AutoReconnectPolicy
+  public static let disabled: IMBluetoothKit::AutoReconnectPolicy
+  public func delay(for attempt: Swift::Int) -> Foundation::TimeInterval
+}
+open class BaseReducerDevice : IMBluetoothKit::BluetoothDevice {
+  public var productCode: Swift::String {
+    get
+  }
+  open var typeIdentifier: Swift::String {
+    get
+  }
+  public var identifier: Swift::String {
+    get
+  }
+  final public let peripheralIdentifier: Foundation::UUID
+  public var name: Swift::String {
+    get
+  }
+  final public let displayName: Swift::String
+  public var otaType: IMBluetoothKit::OTAType {
+    get
+  }
+  public var otaRequiredBatteryLevel: Swift::Int {
+    get
+  }
+  public var audioRouteReconnectEnabled: Swift::Bool {
+    get
+  }
+  public var reconnectServiceUUIDs: [Swift::String] {
+    get
+  }
+  public var managesOwnReconnect: Swift::Bool {
+    get
+  }
+  final public let parser: any IMBluetoothKit::BluetoothProtocolParser
+  final public let builder: any IMBluetoothKit::BluetoothCommandBuilder
+  public var isCharacteristicsReady: Swift::Bool {
+    get
+  }
+  public var characteristicsReadyStream: RxSwift::Observable<Swift::Bool> {
+    get
+  }
+  public var eventStream: RxSwift::Observable<any IMBluetoothKit::DeviceEvent> {
+    get
+  }
+  public var stateStream: RxSwift::Observable<any IMBluetoothKit::DeviceState> {
+    get
+  }
+  public var state: any IMBluetoothKit::DeviceState {
+    get
+  }
+  public init(peripheral: IMBluetoothKit::BluetoothPeripheral, manager: any IMBluetoothKit::BluetoothManagerProtocol, parser: any IMBluetoothKit::BluetoothProtocolParser, builder: any IMBluetoothKit::BluetoothCommandBuilder, initialState: any IMBluetoothKit::DeviceState)
+  open func getOTAType() -> IMBluetoothKit::OTAType
+  open func getOTARequiredBatteryLevel() -> Swift::Int
+  open func getAudioRouteReconnectEnabled() -> Swift::Bool
+  open func getReconnectServiceUUIDs() -> [Swift::String]
+  open func onReconnectOpportunity()
+  open func getManagesOwnReconnect() -> Swift::Bool
+  public func characteristicsReady(_ characteristics: [CoreBluetooth::CBUUID : CoreBluetooth::CBCharacteristic])
+  public func invalidateCharacteristics()
+  final public func heartbeat()
+  public func handle(data: Foundation::Data, ch: CoreBluetooth::CBCharacteristic?)
+  final public func reduce(event: any IMBluetoothKit::DeviceEvent)
+  open func reduce(current: any IMBluetoothKit::DeviceState, event: any IMBluetoothKit::DeviceEvent) -> any IMBluetoothKit::DeviceState
+  public func send(command: any IMBluetoothKit::DeviceCommand)
+  public func send(command: any IMBluetoothKit::DeviceCommand, sleepTimes: Foundation::TimeInterval)
+  @objc deinit
+}
+public protocol BluetoothCommandBuilder {
+  var firmwareChunkPayloadBytes: Swift::Int { get }
+  var notifyCharacteristics: [CoreBluetooth::CBUUID] { get }
+  func writeCharacteristic(for command: any IMBluetoothKit::DeviceCommand) -> CoreBluetooth::CBUUID
+  func writeType(for command: any IMBluetoothKit::DeviceCommand) -> CoreBluetooth::CBCharacteristicWriteType
+  func heartbeat() -> (any IMBluetoothKit::DeviceCommand)?
+  func frames(for command: any IMBluetoothKit::DeviceCommand) throws -> [Foundation::Data]
+  func build(command: any IMBluetoothKit::DeviceCommand) throws -> Foundation::Data
+}
+extension IMBluetoothKit::BluetoothCommandBuilder {
+  public var notifyCharacteristics: [CoreBluetooth::CBUUID] {
+    get
+  }
+  public func frames(for command: any IMBluetoothKit::DeviceCommand) throws -> [Foundation::Data]
+}
+public enum OTAType {
+  case none
+  case jlOTA
+  public static func == (a: IMBluetoothKit::OTAType, b: IMBluetoothKit::OTAType) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public protocol BluetoothDevice : AnyObject {
+  var productCode: Swift::String { get }
+  var typeIdentifier: Swift::String { get }
+  var identifier: Swift::String { get }
+  var peripheralIdentifier: Foundation::UUID { get }
+  var name: Swift::String { get }
+  var otaType: IMBluetoothKit::OTAType { get }
+  var otaRequiredBatteryLevel: Swift::Int { get }
+  var audioRouteReconnectEnabled: Swift::Bool { get }
+  var managesOwnReconnect: Swift::Bool { get }
+  var reconnectServiceUUIDs: [Swift::String] { get }
+  func onReconnectOpportunity()
+  var parser: any IMBluetoothKit::BluetoothProtocolParser { get }
+  var builder: any IMBluetoothKit::BluetoothCommandBuilder { get }
+  var state: any IMBluetoothKit::DeviceState { get }
+  var stateStream: RxSwift::Observable<any IMBluetoothKit::DeviceState> { get }
+  var eventStream: RxSwift::Observable<any IMBluetoothKit::DeviceEvent> { get }
+  func characteristicsReady(_ characteristics: [CoreBluetooth::CBUUID : CoreBluetooth::CBCharacteristic])
+  var isCharacteristicsReady: Swift::Bool { get }
+  var characteristicsReadyStream: RxSwift::Observable<Swift::Bool> { get }
+  func invalidateCharacteristics()
+  func reduce(event: any IMBluetoothKit::DeviceEvent)
+  func handle(data: Foundation::Data, ch: CoreBluetooth::CBCharacteristic?)
+  func heartbeat()
+  func send(command: any IMBluetoothKit::DeviceCommand)
+  func send(command: any IMBluetoothKit::DeviceCommand, sleepTimes: Foundation::TimeInterval)
+}
+public typealias BluetoothUserID = Swift::String
+public struct BluetoothPersistedPeripheral : Swift::Codable, Swift::Equatable {
+  public let identifier: Foundation::UUID
+  public let name: Swift::String
+  public let rssi: Swift::Int
+  public let advertisementData: [Swift::String : IMBluetoothKit::BluetoothPersistedPeripheral.IMBluetoothKit::PersistedValue]
+  public let typeIdentifier: Swift::String?
+  public init(identifier: Foundation::UUID, name: Swift::String, rssi: Swift::Int, advertisementData: [Swift::String : Any], typeIdentifier: Swift::String? = nil)
+  public func advertisementDataDecoded() -> [Swift::String : Any]
+  public enum PersistedValue : Swift::Codable, Swift::Equatable {
+    case string(Swift::String)
+    case int(Swift::Int)
+    case double(Swift::Double)
+    case bool(Swift::Bool)
+    case data(Foundation::Data)
+    case array([IMBluetoothKit::BluetoothPersistedPeripheral.IMBluetoothKit::PersistedValue])
+    case dictionary([Swift::String : IMBluetoothKit::BluetoothPersistedPeripheral.IMBluetoothKit::PersistedValue])
+    public static func == (a: IMBluetoothKit::BluetoothPersistedPeripheral.IMBluetoothKit::PersistedValue, b: IMBluetoothKit::BluetoothPersistedPeripheral.IMBluetoothKit::PersistedValue) -> Swift::Bool
+    public func encode(to encoder: any Swift::Encoder) throws
+    public init(from decoder: any Swift::Decoder) throws
+  }
+  public static func == (a: IMBluetoothKit::BluetoothPersistedPeripheral, b: IMBluetoothKit::BluetoothPersistedPeripheral) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public protocol BluetoothDevicePersistence : AnyObject {
+  func loadPeripherals(for userID: IMBluetoothKit::BluetoothUserID) -> [IMBluetoothKit::BluetoothPersistedPeripheral]
+  func savePeripherals(_ peripherals: [IMBluetoothKit::BluetoothPersistedPeripheral], for userID: IMBluetoothKit::BluetoothUserID)
+  func clearPeripherals(for userID: IMBluetoothKit::BluetoothUserID)
+  func loadLastConnectedIdentifier(for userID: IMBluetoothKit::BluetoothUserID) -> Foundation::UUID?
+  func saveLastConnectedIdentifier(_ identifier: Foundation::UUID?, for userID: IMBluetoothKit::BluetoothUserID)
+}
+extension IMBluetoothKit::BluetoothDevicePersistence {
+  public func appendPeripheral(_ peripheral: IMBluetoothKit::BluetoothPersistedPeripheral, for userID: IMBluetoothKit::BluetoothUserID)
+  public func removePeripheral(identifier: Foundation::UUID, for userID: IMBluetoothKit::BluetoothUserID)
+}
+final public class UserDefaultsBluetoothPersistence : IMBluetoothKit::BluetoothDevicePersistence {
+  public init(defaults: Foundation::UserDefaults = .standard, keyPrefix: Swift::String = "IMBluetoothKit.boundDevices.")
+  final public func loadPeripherals(for userID: IMBluetoothKit::BluetoothUserID) -> [IMBluetoothKit::BluetoothPersistedPeripheral]
+  final public func savePeripherals(_ peripherals: [IMBluetoothKit::BluetoothPersistedPeripheral], for userID: IMBluetoothKit::BluetoothUserID)
+  final public func clearPeripherals(for userID: IMBluetoothKit::BluetoothUserID)
+  final public func loadLastConnectedIdentifier(for userID: IMBluetoothKit::BluetoothUserID) -> Foundation::UUID?
+  final public func saveLastConnectedIdentifier(_ identifier: Foundation::UUID?, for userID: IMBluetoothKit::BluetoothUserID)
+  @objc deinit
+}
+final public class NoopBluetoothPersistence : IMBluetoothKit::BluetoothDevicePersistence {
+  public init()
+  final public func loadPeripherals(for userID: IMBluetoothKit::BluetoothUserID) -> [IMBluetoothKit::BluetoothPersistedPeripheral]
+  final public func savePeripherals(_ peripherals: [IMBluetoothKit::BluetoothPersistedPeripheral], for userID: IMBluetoothKit::BluetoothUserID)
+  final public func clearPeripherals(for userID: IMBluetoothKit::BluetoothUserID)
+  final public func loadLastConnectedIdentifier(for userID: IMBluetoothKit::BluetoothUserID) -> Foundation::UUID?
+  final public func saveLastConnectedIdentifier(_ identifier: Foundation::UUID?, for userID: IMBluetoothKit::BluetoothUserID)
+  @objc deinit
+}
+public enum BluetoothError : Swift::Error {
+  case poweredOff
+  case unauthorized
+  case unsupported
+  case notConnected
+  case serviceNotFound(Swift::String)
+  case characteristicNotFound(Swift::String)
+  case writeFailed(underlying: (any Swift::Error)?)
+  case protocolParseFailed(reason: Swift::String)
+  case unknown((any Swift::Error)?)
+}
+public enum ConnectFailReason : Swift::Equatable, Swift::CustomStringConvertible {
+  case timeout(afterSeconds: Foundation::TimeInterval)
+  case poweredOff
+  case unauthorized
+  case unsupported
+  case peripheralUnreachable
+  case peripheralDisconnected
+  case connectionLimitReached
+  case encryptionFailed
+  case connectionFailed
+  case canceled
+  case serviceDiscoveryFailed
+  case unknown(code: Swift::Int, detail: Swift::String)
+  public var description: Swift::String {
+    get
+  }
+  public static func == (a: IMBluetoothKit::ConnectFailReason, b: IMBluetoothKit::ConnectFailReason) -> Swift::Bool
+}
+public enum BluetoothLogger {
+  public enum Direction : Swift::String {
+    case tx
+    case rx
+    public init?(rawValue: Swift::String)
+    public typealias RawValue = Swift::String
+    public var rawValue: Swift::String {
+      get
+    }
+  }
+  public static var isEnabled: Swift::Bool
+  public static var sink: (Swift::String) -> Swift::Void
+  public static var productType: Swift::String
+  public static func updateProductType(_ productType: Swift::String)
+  public static func info(_ msg: @autoclosure () -> Swift::String, function: Swift::String = #function, file: Swift::StaticString = #fileID, line: Swift::UInt = #line)
+  public static func warn(_ msg: @autoclosure () -> Swift::String, function: Swift::String = #function, file: Swift::StaticString = #fileID, line: Swift::UInt = #line)
+  public static func error(_ msg: @autoclosure () -> Swift::String, function: Swift::String = #function, file: Swift::StaticString = #fileID, line: Swift::UInt = #line)
+  public static func data(direction: IMBluetoothKit::BluetoothLogger.IMBluetoothKit::Direction, peripheral: Foundation::UUID, data: Foundation::Data, function: Swift::String = #function, file: Swift::StaticString = #fileID, line: Swift::UInt = #line)
+}
+@objc @_inheritsConvenienceInitializers final public class BluetoothManager : ObjectiveC::NSObject, IMBluetoothKit::BluetoothManagerProtocol {
+  final public var bluetoothState: RxSwift::Observable<CoreBluetooth::CBManagerState> {
+    get
+  }
+  final public var scanResult: RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]> {
+    get
+  }
+  final public var connectionState: RxSwift::Observable<IMBluetoothKit::ConnectionState> {
+    get
+  }
+  final public var characteristicsReady: RxSwift::Observable<[Foundation::UUID : [CoreBluetooth::CBUUID : CoreBluetooth::CBCharacteristic]]> {
+    get
+  }
+  final public var receivedData: RxSwift::Observable<(CoreBluetooth::CBPeripheral, CoreBluetooth::CBCharacteristic?, Foundation::Data)> {
+    get
+  }
+  final public let connectTimeout: Swift::Double
+  @objc deinit
+  @objc override dynamic public init()
+  final public func stopScan()
+  final public func startScan(serviceUUIDs: [CoreBluetooth::CBUUID]? = nil)
+  final public func connect(_ peripheral: CoreBluetooth::CBPeripheral, timeout: Foundation::TimeInterval?)
+  final public func syncPeripheralState(_ peripheral: CoreBluetooth::CBPeripheral)
+  final public func disconnect(_ peripheral: CoreBluetooth::CBPeripheral)
+  final public func write(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic uuid: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType)
+  final public func write(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic uuid: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType, sleepTimes: Foundation::TimeInterval)
+  final public func writeQuietly(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic uuid: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType)
+  final public func retrievePeripherals(with identifiers: [Foundation::UUID]) -> [CoreBluetooth::CBPeripheral]
+  final public func retrieveConnectedPeripherals(withServices services: [CoreBluetooth::CBUUID]) -> [IMBluetoothKit::BluetoothPeripheral]
+}
+extension IMBluetoothKit::BluetoothManager : CoreBluetooth::CBCentralManagerDelegate {
+  @objc final public func centralManagerDidUpdateState(_ central: CoreBluetooth::CBCentralManager)
+  @objc final public func centralManager(_ central: CoreBluetooth::CBCentralManager, didDiscover peripheral: CoreBluetooth::CBPeripheral, advertisementData: [Swift::String : Any], rssi RSSI: Foundation::NSNumber)
+  @objc final public func centralManager(_ central: CoreBluetooth::CBCentralManager, didConnect peripheral: CoreBluetooth::CBPeripheral)
+  @objc final public func centralManager(_ central: CoreBluetooth::CBCentralManager, didFailToConnect peripheral: CoreBluetooth::CBPeripheral, error: (any Swift::Error)?)
+  @objc final public func centralManager(_ central: CoreBluetooth::CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth::CBPeripheral, error: (any Swift::Error)?)
+}
+extension IMBluetoothKit::BluetoothManager : CoreBluetooth::CBPeripheralDelegate {
+  @objc final public func peripheral(_ peripheral: CoreBluetooth::CBPeripheral, didDiscoverServices error: (any Swift::Error)?)
+  @objc final public func peripheral(_ peripheral: CoreBluetooth::CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth::CBService, error: (any Swift::Error)?)
+  @objc final public func peripheral(_ peripheral: CoreBluetooth::CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth::CBCharacteristic, error: (any Swift::Error)?)
+  @objc final public func peripheral(_ peripheral: CoreBluetooth::CBPeripheral, didWriteValueFor characteristic: CoreBluetooth::CBCharacteristic, error: (any Swift::Error)?)
+}
+public protocol BluetoothManagerProtocol : AnyObject {
+  var bluetoothState: RxSwift::Observable<CoreBluetooth::CBManagerState> { get }
+  var scanResult: RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]> { get }
+  var connectionState: RxSwift::Observable<IMBluetoothKit::ConnectionState> { get }
+  var characteristicsReady: RxSwift::Observable<[Foundation::UUID : [CoreBluetooth::CBUUID : CoreBluetooth::CBCharacteristic]]> { get }
+  var receivedData: RxSwift::Observable<(CoreBluetooth::CBPeripheral, CoreBluetooth::CBCharacteristic?, Foundation::Data)> { get }
+  func stopScan()
+  func startScan(serviceUUIDs: [CoreBluetooth::CBUUID]?)
+  func connect(_ peripheral: CoreBluetooth::CBPeripheral, timeout: Foundation::TimeInterval?)
+  func disconnect(_ peripheral: CoreBluetooth::CBPeripheral)
+  func syncPeripheralState(_ peripheral: CoreBluetooth::CBPeripheral)
+  func write(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType)
+  func write(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType, sleepTimes: Foundation::TimeInterval)
+  func writeQuietly(_ data: Foundation::Data, to peripheral: CoreBluetooth::CBPeripheral?, characteristic: CoreBluetooth::CBUUID, type: CoreBluetooth::CBCharacteristicWriteType)
+  func retrievePeripherals(with identifiers: [Foundation::UUID]) -> [CoreBluetooth::CBPeripheral]
+  func retrieveConnectedPeripherals(withServices services: [CoreBluetooth::CBUUID]) -> [IMBluetoothKit::BluetoothPeripheral]
+}
+extension IMBluetoothKit::BluetoothManagerProtocol {
+  public func connect(_ peripheral: CoreBluetooth::CBPeripheral)
+}
+public struct BluetoothPeripheral : Swift::Hashable {
+  public let identifier: Foundation::UUID
+  public let name: Swift::String
+  public let rssi: Swift::Int
+  public let advertisementData: [Swift::String : Any]
+  public var isMock: Swift::Bool {
+    get
+  }
+  public static func makeMock(identifier: Foundation::UUID = UUID(), name: Swift::String, rssi: Swift::Int = -55, advertisementData: [Swift::String : Any] = [:]) -> IMBluetoothKit::BluetoothPeripheral
+  public static func == (lhs: IMBluetoothKit::BluetoothPeripheral, rhs: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public protocol BluetoothProtocolParser {
+  func parse(data: Foundation::Data) -> [any IMBluetoothKit::DeviceEvent]
+  func reset()
+}
+final public class BluetoothService : IMBluetoothKit::BluetoothServiceProtocol {
+  public static let shared: IMBluetoothKit::BluetoothService
+  final public var discovered: RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]> {
+    get
+  }
+  final public var devices: RxSwift::Observable<[any IMBluetoothKit::BluetoothDevice]> {
+    get
+  }
+  final public var currentDevice: RxSwift::Observable<(any IMBluetoothKit::BluetoothDevice)?> {
+    get
+  }
+  final public var currentDeviceValue: (any IMBluetoothKit::BluetoothDevice)? {
+    get
+  }
+  final public var reconnecting: RxSwift::Observable<Swift::Set<Foundation::UUID>> {
+    get
+  }
+  final public var connectionState: RxSwift::Observable<IMBluetoothKit::ConnectionState> {
+    get
+  }
+  final public var currentConnectionState: IMBluetoothKit::ConnectionState {
+    get
+  }
+  final public var bluetoothState: RxSwift::Observable<CoreBluetooth::CBManagerState> {
+    get
+  }
+  final public var currentBluetoothState: CoreBluetooth::CBManagerState {
+    get
+  }
+  final public func isConnected(deviceID: Foundation::UUID? = nil) -> Swift::Bool
+  final public var heartbeatPolicy: IMBluetoothKit::HeartbeatPolicy
+  final public var autoReconnectPolicy: IMBluetoothKit::AutoReconnectPolicy
+  final public var switchPolicy: IMBluetoothKit::SwitchPolicy
+  final public var currentUserID: IMBluetoothKit::BluetoothUserID? {
+    get
+  }
+  final public var persistence: any IMBluetoothKit::BluetoothDevicePersistence
+  final public var firstConnectTimeout: Swift::Double
+  @objc deinit
+  convenience public init()
+  public init(manager: any IMBluetoothKit::BluetoothManagerProtocol, registry: IMBluetoothKit::DeviceRegistry = .shared)
+  final public func stopScan()
+  final public func startScan()
+  final public func startScan(for factory: any IMBluetoothKit::DeviceFactory) -> RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]>
+  final public func startScan(matching filter: any IMBluetoothKit::DeviceFilter) -> RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]>
+  final public func connect(peripheral: IMBluetoothKit::BluetoothPeripheral, firstConnect: Swift::Bool)
+  final public func connect(peripheral: IMBluetoothKit::BluetoothPeripheral, firstConnect: Swift::Bool, connectTimeout: Foundation::TimeInterval?)
+  final public func disconnect(device: any IMBluetoothKit::BluetoothDevice)
+  @discardableResult
+  final public func disconnectPreservingCache(_ device: any IMBluetoothKit::BluetoothDevice) -> Swift::Bool
+  final public func disconnectAllPreservingCache()
+  final public func forceReconnectDisconnect(id: Foundation::UUID)
+  final public func disconnectAllForTermination()
+  final public func addDevice(_ device: any IMBluetoothKit::BluetoothDevice, peripheral: IMBluetoothKit::BluetoothPeripheral? = nil, persist: Swift::Bool = true)
+  final public func removeDevice(_ device: any IMBluetoothKit::BluetoothDevice, persist: Swift::Bool = true)
+  final public func removeDevice(identifier id: Foundation::UUID, persist: Swift::Bool = true)
+  final public func clearDevices(persist: Swift::Bool = true)
+  final public func device(for identifier: Foundation::UUID) -> (any IMBluetoothKit::BluetoothDevice)?
+  final public var cachedDevices: [any IMBluetoothKit::BluetoothDevice] {
+    get
+  }
+  final public func retrieveConnectedPeripherals(withServiceUUIDs serviceUUIDs: [Swift::String]) -> [IMBluetoothKit::BluetoothPeripheral]
+  final public func isSystemConnected(id: Foundation::UUID, serviceUUIDs: [Swift::String]) -> Swift::Bool
+  final public var bluetoothAudioPorts: [IMBluetoothKit::BluetoothAudioPort] {
+    get
+  }
+  final public func cachedPeripheral(for identifier: Foundation::UUID) -> IMBluetoothKit::BluetoothPeripheral?
+  final public func ensureDevice(for peripheral: IMBluetoothKit::BluetoothPeripheral, using factory: any IMBluetoothKit::DeviceFactory)
+  final public func persistBoundDevice(_ peripheral: IMBluetoothKit::BluetoothPeripheral)
+  final public func bindUser(_ userID: IMBluetoothKit::BluetoothUserID)
+  final public func unbindUser()
+  final public func persistedPeripherals(for userID: IMBluetoothKit::BluetoothUserID) -> [IMBluetoothKit::BluetoothPersistedPeripheral]
+  final public var lastConnectedIdentifier: Foundation::UUID? {
+    get
+  }
+  final public var lastConnectedPeripheral: IMBluetoothKit::BluetoothPersistedPeripheral? {
+    get
+  }
+  final public var lastConnectedDevice: (any IMBluetoothKit::BluetoothDevice)? {
+    get
+  }
+  @discardableResult
+  final public func reconnectLast() -> Swift::Bool
+  @discardableResult
+  final public func reconnectUUID(_ uuid: Foundation::UUID) -> Swift::Bool
+  final public func switchDevice(_ device: any IMBluetoothKit::BluetoothDevice)
+  @discardableResult
+  final public func switchConnection(to device: any IMBluetoothKit::BluetoothDevice) -> Swift::Bool
+  final public func send(command: any IMBluetoothKit::DeviceCommand)
+}
+public protocol BluetoothServiceProtocol : AnyObject {
+  var discovered: RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]> { get }
+  var devices: RxSwift::Observable<[any IMBluetoothKit::BluetoothDevice]> { get }
+  var currentDevice: RxSwift::Observable<(any IMBluetoothKit::BluetoothDevice)?> { get }
+  var reconnecting: RxSwift::Observable<Swift::Set<Foundation::UUID>> { get }
+  var connectionState: RxSwift::Observable<IMBluetoothKit::ConnectionState> { get }
+  var autoReconnectPolicy: IMBluetoothKit::AutoReconnectPolicy { get set }
+  var switchPolicy: IMBluetoothKit::SwitchPolicy { get set }
+  func stopScan()
+  func startScan()
+  func startScan(for factory: any IMBluetoothKit::DeviceFactory) -> RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]>
+  func startScan(matching filter: any IMBluetoothKit::DeviceFilter) -> RxSwift::Observable<[IMBluetoothKit::BluetoothPeripheral]>
+  func connect(peripheral: IMBluetoothKit::BluetoothPeripheral, firstConnect: Swift::Bool)
+  func disconnect(device: any IMBluetoothKit::BluetoothDevice)
+  @discardableResult
+  func disconnectPreservingCache(_ device: any IMBluetoothKit::BluetoothDevice) -> Swift::Bool
+  func disconnectAllPreservingCache()
+  func switchDevice(_ device: any IMBluetoothKit::BluetoothDevice)
+  @discardableResult
+  func switchConnection(to device: any IMBluetoothKit::BluetoothDevice) -> Swift::Bool
+  func send(command: any IMBluetoothKit::DeviceCommand)
+  func addDevice(_ device: any IMBluetoothKit::BluetoothDevice, peripheral: IMBluetoothKit::BluetoothPeripheral?, persist: Swift::Bool)
+  func removeDevice(_ device: any IMBluetoothKit::BluetoothDevice, persist: Swift::Bool)
+  func removeDevice(identifier: Foundation::UUID, persist: Swift::Bool)
+  func clearDevices(persist: Swift::Bool)
+  func device(for identifier: Foundation::UUID) -> (any IMBluetoothKit::BluetoothDevice)?
+  var cachedDevices: [any IMBluetoothKit::BluetoothDevice] { get }
+  func retrieveConnectedPeripherals(withServiceUUIDs serviceUUIDs: [Swift::String]) -> [IMBluetoothKit::BluetoothPeripheral]
+  func ensureDevice(for peripheral: IMBluetoothKit::BluetoothPeripheral, using factory: any IMBluetoothKit::DeviceFactory)
+  var currentUserID: IMBluetoothKit::BluetoothUserID? { get }
+  var persistence: any IMBluetoothKit::BluetoothDevicePersistence { get set }
+  func bindUser(_ userID: IMBluetoothKit::BluetoothUserID)
+  func unbindUser()
+  func persistedPeripherals(for userID: IMBluetoothKit::BluetoothUserID) -> [IMBluetoothKit::BluetoothPersistedPeripheral]
+  var lastConnectedIdentifier: Foundation::UUID? { get }
+  var lastConnectedPeripheral: IMBluetoothKit::BluetoothPersistedPeripheral? { get }
+  var lastConnectedDevice: (any IMBluetoothKit::BluetoothDevice)? { get }
+  @discardableResult
+  func reconnectLast() -> Swift::Bool
+  @discardableResult
+  func reconnectUUID(_ uuid: Foundation::UUID) -> Swift::Bool
+}
+extension IMBluetoothKit::BluetoothServiceProtocol {
+  public func addDevice(_ device: any IMBluetoothKit::BluetoothDevice)
+  public func removeDevice(_ device: any IMBluetoothKit::BluetoothDevice)
+  public func removeDevice(identifier: Foundation::UUID)
+  public func clearDevices()
+  public func connect(peripheral: IMBluetoothKit::BluetoothPeripheral)
+}
+public enum ConnectionState : Swift::Equatable {
+  case poweredOff
+  case idle
+  case scanning
+  case connecting(Foundation::UUID, peripheral: CoreBluetooth::CBPeripheral?)
+  case connected(Foundation::UUID, peripheral: CoreBluetooth::CBPeripheral?)
+  case disconnecting(Foundation::UUID, peripheral: CoreBluetooth::CBPeripheral?)
+  case disconnected(Foundation::UUID, peripheral: CoreBluetooth::CBPeripheral?, reason: Swift::String?)
+  case failed(Foundation::UUID, peripheral: CoreBluetooth::CBPeripheral?, reason: IMBluetoothKit::ConnectFailReason)
+  public static func == (lhs: IMBluetoothKit::ConnectionState, rhs: IMBluetoothKit::ConnectionState) -> Swift::Bool
+}
+public protocol DeviceCommand {
+}
+public protocol DeviceEvent {
+}
+public protocol DeviceFactory {
+  var filter: any IMBluetoothKit::DeviceFilter { get }
+  var typeIdentifier: Swift::String { get }
+  func makeDevice(_ peripheral: IMBluetoothKit::BluetoothPeripheral, manager: any IMBluetoothKit::BluetoothManagerProtocol) -> any IMBluetoothKit::BluetoothDevice
+}
+extension IMBluetoothKit::DeviceFactory {
+  public func canHandle(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+  public var typeIdentifier: Swift::String {
+    get
+  }
+}
+final public class DeviceRegistry {
+  public static let shared: IMBluetoothKit::DeviceRegistry
+  public init()
+  final public func register(_ factory: any IMBluetoothKit::DeviceFactory)
+  final public func unregisterAll()
+  final public func factory(for peripheral: IMBluetoothKit::BluetoothPeripheral) -> (any IMBluetoothKit::DeviceFactory)?
+  final public func factory(for typeIdentifier: Swift::String) -> (any IMBluetoothKit::DeviceFactory)?
+  final public var allFactories: [any IMBluetoothKit::DeviceFactory] {
+    get
+  }
+  @objc deinit
+}
+public protocol DeviceFilter {
+  func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct AllOfFilter : IMBluetoothKit::DeviceFilter {
+  public let filters: [any IMBluetoothKit::DeviceFilter]
+  public init(_ filters: [any IMBluetoothKit::DeviceFilter])
+  public init(_ filters: any IMBluetoothKit::DeviceFilter...)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct AnyOfFilter : IMBluetoothKit::DeviceFilter {
+  public let filters: [any IMBluetoothKit::DeviceFilter]
+  public init(_ filters: [any IMBluetoothKit::DeviceFilter])
+  public init(_ filters: any IMBluetoothKit::DeviceFilter...)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct NameLengthFilter : IMBluetoothKit::DeviceFilter {
+  public let minLength: Swift::Int
+  public init(minLength: Swift::Int = 1)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct AdvertisementLengthFilter : IMBluetoothKit::DeviceFilter {
+  public let minBytes: Swift::Int
+  public init(minBytes: Swift::Int = 1)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct NamePrefixFilter : IMBluetoothKit::DeviceFilter {
+  public let prefixes: [Swift::String]
+  public init(_ prefixes: [Swift::String])
+  public init(_ prefixes: Swift::String...)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public struct ServiceUUIDFilter : IMBluetoothKit::DeviceFilter {
+  public let uuids: Swift::Set<CoreBluetooth::CBUUID>
+  public init(_ uuids: [CoreBluetooth::CBUUID])
+  public init(_ uuids: CoreBluetooth::CBUUID...)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+public protocol DeviceState {
+}
+public struct HeartbeatPolicy {
+  public var isEnabled: Swift::Bool
+  public var timeInterval: Swift::Double
+  public static let `default`: IMBluetoothKit::HeartbeatPolicy
+  public static let disabled: IMBluetoothKit::HeartbeatPolicy
+  public init(isEnabled: Swift::Bool = true, timeInterval: Foundation::TimeInterval = 5.0)
+}
+public enum SwitchPolicy {
+  case keepBothConnected
+  case disconnectPrevious
+  public static func == (a: IMBluetoothKit::SwitchPolicy, b: IMBluetoothKit::SwitchPolicy) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public enum XA01AudioCmd : Swift::UInt8 {
+  case eqSet
+  case mediaControl
+  case keyMapping
+  case sleepTimer
+  case factoryReset
+  case workMode
+  case inEarDetect
+  case getDeviceInfo
+  case devicePushedInfo
+  case promptToneLanguage
+  case findEarbuds
+  case autoAnswer
+  case ancModeLegacy
+  case bluetoothName
+  case ledSwitch
+  case clearPairings
+  case ancLevelLegacy
+  case transpLevelLegacy
+  case effect3D
+  case multipoint
+  case voiceRecognition
+  case ancComposite
+  case dynamicBass
+  case leAudioBisSwitch
+  case leAudioBisLink
+  case callControl
+  case micMute
+  case opusRecording
+  case audioStreamNotify
+  case utcTimeSync
+  case encSet
+  case sensorAutoShutdown
+  case otaInfo
+  case otaChunkFirst
+  case otaChunkContinue
+  case otaStatus
+  public var hex: Swift::String {
+    get
+  }
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01AudioInfoType : Swift::UInt8 {
+  case battery
+  case firmwareVer
+  case bluetoothName
+  case eqConfig
+  case keyMapping
+  case volume
+  case playState
+  case workMode
+  case inEar
+  case promptTone
+  case autoAnswer
+  case ancMode
+  case twsSupport
+  case twsConnState
+  case ledSwitch
+  case firmwareCRC
+  case ancLevel
+  case transpLevel
+  case ancLevelTotal
+  case transpLevelTotal
+  case allEqModes
+  case leftRightSide
+  case productColor
+  case effect3D
+  case multipointSwitch
+  case connectedPhones
+  case changedPhoneInfo
+  case voiceRec
+  case ancFade
+  case dynBassSwitch
+  case dynBassLevel
+  case dynBassRange
+  case bisDeviceList
+  case bisRemoveList
+  case bluetoothStatus
+  case productId
+  case wearState
+  case encSwitch
+  case buttonEvent
+  case cemiData
+  case wearAutoShutdown
+  case capabilityMask
+  case maxPacket
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01OTAStatusCode : Swift::UInt8 {
+  case ok
+  case sameFirmware
+  case keyMismatch
+  case crcError
+  case seqError
+  case lengthError
+  case pause
+  case resume
+  case finish
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01MediaTLV : Swift::UInt8 {
+  case volume
+  case play
+  case pause
+  case prev
+  case next
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01KeyMappingTLV : Swift::UInt8 {
+  case leftShort
+  case rightShort
+  case leftDouble
+  case rightDouble
+  case leftTriple
+  case rightTriple
+  case leftLong
+  case rightLong
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01KeyFunction : Swift::UInt8, Swift::Codable {
+  case none
+  case redial
+  case voiceAssist
+  case prevTrack
+  case nextTrack
+  case volumeUp
+  case volumeDown
+  case playPause
+  case gameMode
+  case ancToggle
+  case eqToggle
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01ANCTLV : Swift::UInt8 {
+  case mode
+  case ancLevel
+  case transpLvl
+  case fadeInOut
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01MultipointTLV : Swift::UInt8 {
+  case enable
+  case connectPhone
+  case disconnectPhone
+  case unpairPhone
+  case appPhoneAddress
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01DynamicBassTLV : Swift::UInt8 {
+  case enable
+  case level
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01OpusRecordingTLV : Swift::UInt8 {
+  case enable
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01BISLinkAction : Swift::UInt8 {
+  case disconnect
+  case connect
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01FindEarbudsAction : Swift::UInt8 {
+  case stop
+  case startBoth
+  case startL
+  case stopL
+  case startR
+  case stopR
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01WorkMode : Swift::UInt8, Swift::Codable {
+  case normal
+  case game
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01ANCMode : Swift::UInt8, Swift::Codable {
+  case normal
+  case anc
+  case transparency
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01SensorAutoShutDown : Swift::UInt8, Swift::Codable {
+  case yes
+  case no
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01PromptToneLanguage : Swift::UInt8 {
+  case english
+  case chinese
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01CallControlAction : Swift::UInt8 {
+  case answer
+  case hangup
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01ConnectedSide : Swift::UInt8, Swift::Codable {
+  case right
+  case left
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01BluetoothStatusTLV : Swift::UInt8, Swift::Codable {
+  case off
+  case initing
+  case onIdle
+  case scanning
+  case disconnecting
+  case connecting
+  case connected
+  case playing
+  case ringing
+  case calling
+  case inCall
+  case otaUpgrading
+  case scoState
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public enum XA01BISInfoTLV : Swift::UInt8 {
+  case adId
+  case address
+  case rssi
+  case adName
+  case programInfo
+  case connectState
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public struct XA01BatteryByte : Swift::Equatable, Swift::Codable {
+  public let percent: Swift::Int
+  public let charging: Swift::Bool
+  public init(_ b: Swift::UInt8)
+  public static func == (a: IMBluetoothKit::XA01BatteryByte, b: IMBluetoothKit::XA01BatteryByte) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01BatterySnapshot : Swift::Equatable, Swift::Codable {
+  public let left: IMBluetoothKit::XA01BatteryByte?
+  public let right: IMBluetoothKit::XA01BatteryByte?
+  public let case_: IMBluetoothKit::XA01BatteryByte?
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01BatterySnapshot
+  public static func == (a: IMBluetoothKit::XA01BatterySnapshot, b: IMBluetoothKit::XA01BatterySnapshot) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public enum XA01EarButtonAction : Swift::UInt8 {
+  case none
+  case singleClick
+  case longPress
+  case doubleClick
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
+    get
+  }
+}
+public struct XA01EarButtonEvent : Swift::Equatable {
+  public let left: IMBluetoothKit::XA01EarButtonAction
+  public let right: IMBluetoothKit::XA01EarButtonAction
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01EarButtonEvent?
+  public static func == (a: IMBluetoothKit::XA01EarButtonEvent, b: IMBluetoothKit::XA01EarButtonEvent) -> Swift::Bool
+}
+public struct XA01CEMIData : Swift::Equatable, Swift::Codable {
+  public let raw: Foundation::Data
+  public var deviceNo: Swift::String {
+    get
+  }
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01CEMIData?
+  public static func == (a: IMBluetoothKit::XA01CEMIData, b: IMBluetoothKit::XA01CEMIData) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01WearState : Swift::Equatable, Swift::Codable {
+  public let leftWorn: Swift::Bool?
+  public let rightWorn: Swift::Bool?
+  public let caseOpen: Swift::Bool?
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01WearState
+  public static func == (a: IMBluetoothKit::XA01WearState, b: IMBluetoothKit::XA01WearState) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01EQConfig : Swift::Equatable, Swift::Codable {
+  public let bandsCount: Swift::UInt8
+  public let currentMode: Swift::UInt8
+  public let gains: [Swift::Int8]
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01EQConfig?
+  public static func == (a: IMBluetoothKit::XA01EQConfig, b: IMBluetoothKit::XA01EQConfig) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01KeyMappings : Swift::Equatable, Swift::Codable {
+  public var leftShort: IMBluetoothKit::XA01KeyFunction?
+  public var rightShort: IMBluetoothKit::XA01KeyFunction?
+  public var leftDouble: IMBluetoothKit::XA01KeyFunction?
+  public var rightDouble: IMBluetoothKit::XA01KeyFunction?
+  public var leftTriple: IMBluetoothKit::XA01KeyFunction?
+  public var rightTriple: IMBluetoothKit::XA01KeyFunction?
+  public var leftLong: IMBluetoothKit::XA01KeyFunction?
+  public var rightLong: IMBluetoothKit::XA01KeyFunction?
+  public init()
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01KeyMappings
+  public static func == (a: IMBluetoothKit::XA01KeyMappings, b: IMBluetoothKit::XA01KeyMappings) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01ConnectedPhone : Swift::Equatable, Swift::Codable {
+  public let mac: [Swift::UInt8]
+  public let connected: Swift::Bool
+  public let name: Swift::String
+  public var macString: Swift::String {
+    get
+  }
+  public static func parseList(_ data: Foundation::Data) -> [IMBluetoothKit::XA01ConnectedPhone]
+  public static func parseSingle(_ data: Foundation::Data) -> IMBluetoothKit::XA01ConnectedPhone?
+  public static func == (a: IMBluetoothKit::XA01ConnectedPhone, b: IMBluetoothKit::XA01ConnectedPhone) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01BluetoothStatusInfo : Swift::Equatable, Swift::Codable {
+  public let status: IMBluetoothKit::XA01BluetoothStatusTLV
+  public let detail: Foundation::Data
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01BluetoothStatusInfo?
+  public var phoneNumber: Swift::String? {
+    get
+  }
+  public static func == (a: IMBluetoothKit::XA01BluetoothStatusInfo, b: IMBluetoothKit::XA01BluetoothStatusInfo) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct XA01BISDevice : Swift::Equatable, Swift::Codable {
+  public let adId: Swift::UInt32
+  public let address: [Swift::UInt8]
+  public let rssi: Swift::Int8
+  public let name: Swift::String
+  public let programInfo: Swift::String
+  public let connected: Swift::Bool
+  public static func parse(_ data: Foundation::Data) -> [IMBluetoothKit::XA01BISDevice]
+  public static func == (a: IMBluetoothKit::XA01BISDevice, b: IMBluetoothKit::XA01BISDevice) -> Swift::Bool
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+extension Foundation::Data {
+  public func le2() -> Swift::UInt16
+  public func le4() -> Swift::UInt32
+}
+public struct XA01CapabilityMask : Swift::OptionSet, Swift::Equatable {
+  public let rawValue: Swift::UInt16
+  public init(rawValue: Swift::UInt16)
+  public static let tws: IMBluetoothKit::XA01CapabilityMask
+  public static let effect3D: IMBluetoothKit::XA01CapabilityMask
+  public static let multipoint: IMBluetoothKit::XA01CapabilityMask
+  public static let anc: IMBluetoothKit::XA01CapabilityMask
+  public static let voiceRec: IMBluetoothKit::XA01CapabilityMask
+  public static let dynamicBass: IMBluetoothKit::XA01CapabilityMask
+  public static let leAudioBis: IMBluetoothKit::XA01CapabilityMask
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01CapabilityMask
+  public typealias ArrayLiteralElement = IMBluetoothKit::XA01CapabilityMask
+  public typealias Element = IMBluetoothKit::XA01CapabilityMask
+  public typealias RawValue = Swift::UInt16
+}
+public enum XA01BesGATT {
+  public static let service: CoreBluetooth::CBUUID
+  public static let char: CoreBluetooth::CBUUID
+}
+public enum XA01AbMateGATT {
+  public static let service: CoreBluetooth::CBUUID
+  public static let writeRsp: CoreBluetooth::CBUUID
+  public static let writeNoRsp: CoreBluetooth::CBUUID
+  public static let notify: CoreBluetooth::CBUUID
+  public static let ctkdTrigger: CoreBluetooth::CBUUID
+}
+final public class XA01CommandBuilder : IMBluetoothKit::BluetoothCommandBuilder {
+  public init()
+  public static let defaultQueryTypes: [IMBluetoothKit::XA01AudioInfoType]
+  final public var firmwareChunkPayloadBytes: Swift::Int
+  final public var notifyCharacteristics: [CoreBluetooth::CBUUID] {
+    get
+  }
+  final public func writeCharacteristic(for command: any IMBluetoothKit::DeviceCommand) -> CoreBluetooth::CBUUID
+  final public func writeType(for command: any IMBluetoothKit::DeviceCommand) -> CoreBluetooth::CBCharacteristicWriteType
+  final public func heartbeat() -> (any IMBluetoothKit::DeviceCommand)?
+  final public func build(command: any IMBluetoothKit::DeviceCommand) throws -> Foundation::Data
+  @objc deinit
+}
+final public class XA01Device : IMBluetoothKit::BaseReducerDevice {
+  override final public var typeIdentifier: Swift::String {
+    get
+  }
+  public init(peripheral: IMBluetoothKit::BluetoothPeripheral, manager: any IMBluetoothKit::BluetoothManagerProtocol)
+  public static let voiceWakeRequested: Foundation::Notification.Foundation::Name
+  override final public func reduce(current: any IMBluetoothKit::DeviceState, event: any IMBluetoothKit::DeviceEvent) -> any IMBluetoothKit::DeviceState
+  @objc deinit
+}
+public struct XA01DeviceBeacon : Swift::Equatable {
+  public static let manufacturerCID: Swift::UInt16
+  public static let payloadLength: Swift::Int
+  public static let supportedProtocolVersion: Swift::UInt8
+  public let protocolVersion: Swift::UInt8
+  public let productId: Swift::UInt16
+  public let macBytes: [Swift::UInt8]
+  public let fmsk: Swift::UInt8
+  public let brandId: Swift::UInt32
+  public var needsSecureAuth: Swift::Bool {
+    get
+  }
+  public var supportsCTKD: Swift::Bool {
+    get
+  }
+  public var customSPPUUID: Swift::Bool {
+    get
+  }
+  public enum XA01ClassicBTState : Swift::UInt8 {
+    case disconnected
+    case connected
+    case reserved
+    public init?(rawValue: Swift::UInt8)
+    public typealias RawValue = Swift::UInt8
+    public var rawValue: Swift::UInt8 {
+      get
+    }
+  }
+  public var classicBTState: IMBluetoothKit::XA01DeviceBeacon.IMBluetoothKit::XA01ClassicBTState {
+    get
+  }
+  public var isClassicBTConnected: Swift::Bool {
+    get
+  }
+  public var macString: Swift::String {
+    get
+  }
+  public static func parse(_ data: Foundation::Data) -> IMBluetoothKit::XA01DeviceBeacon?
+  public static func == (a: IMBluetoothKit::XA01DeviceBeacon, b: IMBluetoothKit::XA01DeviceBeacon) -> Swift::Bool
+}
+public enum XA01DeviceCommand : IMBluetoothKit::DeviceCommand {
+  case queryDeviceInfo(types: [IMBluetoothKit::XA01AudioInfoType])
+  case setEQ(IMBluetoothKit::XA01EQConfig)
+  case setVolume(Swift::UInt8)
+  case play
+  case pause
+  case prev
+  case next
+  case setKeyMappings(IMBluetoothKit::XA01KeyMappings)
+  case setSleepTimer(minutes: Swift::UInt8)
+  case factoryReset
+  case setWorkMode(IMBluetoothKit::XA01WorkMode)
+  case setInEarDetect(Swift::Bool)
+  case setPromptToneLanguage(IMBluetoothKit::XA01PromptToneLanguage)
+  case findEarbuds(IMBluetoothKit::XA01FindEarbudsAction)
+  case setAutoAnswer(Swift::Bool)
+  case setBluetoothName(Swift::String)
+  case setLED(Swift::Bool)
+  case clearPairings
+  case setEffect3D(Swift::Bool)
+  case setVoiceRecognition(Swift::Bool)
+  case setANCMode(IMBluetoothKit::XA01ANCMode)
+  case setANCLevel(Swift::UInt8)
+  case setTransparencyLevel(Swift::UInt8)
+  case setANCFadeInOut(Swift::Bool)
+  case setMultipoint(Swift::Bool)
+  case setDynamicBass(Swift::Bool)
+  case setDynamicBassLevel(Swift::Int8)
+  case answerCall
+  case hangupCall
+  case setMic(Swift::Bool)
+  case setOpusRecording(Swift::Bool)
+  case setEncSwitch(Swift::Bool)
+  case setSensorAutoShutdown(IMBluetoothKit::XA01SensorAutoShutDown)
+  case respondUTC(utc: Swift::UInt32)
+}
+public enum XA01DeviceEvent : IMBluetoothKit::DeviceEvent {
+  case deviceInfo([(type: Swift::UInt8, value: Foundation::Data)])
+  case ack(cmd: Swift::UInt8, success: Swift::Bool)
+  case utcSync(deviceUTC: Swift::UInt32?)
+  case protocolError(Swift::String)
+}
+public struct XA01Ack : Swift::Equatable {
+  public let cmd: Swift::UInt8
+  public let success: Swift::Bool
+  public init(cmd: Swift::UInt8, success: Swift::Bool)
+  public static func == (a: IMBluetoothKit::XA01Ack, b: IMBluetoothKit::XA01Ack) -> Swift::Bool
+}
+public struct XA01DeviceState : IMBluetoothKit::DeviceState, Swift::Equatable {
+  public var battery: IMBluetoothKit::XA01BatterySnapshot?
+  public var firmwareVersion: Swift::String?
+  public var firmwareCRC: Swift::UInt32?
+  public var bluetoothName: Swift::String?
+  public var volume: Swift::UInt8?
+  public var isPlaying: Swift::Bool?
+  public var workMode: IMBluetoothKit::XA01WorkMode?
+  public var inEarOn: Swift::Bool?
+  public var promptToneType: Swift::UInt8?
+  public var autoAnswerOn: Swift::Bool?
+  public var ancMode: IMBluetoothKit::XA01ANCMode?
+  public var encMode: Swift::Bool?
+  public var ancLevel: Swift::UInt8?
+  public var transpLevel: Swift::UInt8?
+  public var ancLevelTotal: Swift::UInt8?
+  public var transpLevelTotal: Swift::UInt8?
+  public var ancFadeOn: Swift::Bool?
+  public var ledOn: Swift::Bool?
+  public var effect3DOn: Swift::Bool?
+  public var multipointOn: Swift::Bool?
+  public var voiceRecOn: Swift::Bool?
+  public var dynamicBassOn: Swift::Bool?
+  public var dynamicBassLevel: Swift::Int8?
+  public var dynamicBassRange: Swift::ClosedRange<Swift::Int8>?
+  public var twsSupported: Swift::Bool?
+  public var twsConnected: Swift::Bool?
+  public var connectedSide: IMBluetoothKit::XA01ConnectedSide?
+  public var productColor: Swift::UInt8?
+  public var productId: Swift::UInt16?
+  public var capabilityMask: IMBluetoothKit::XA01CapabilityMask?
+  public var maxPacket: Swift::UInt8?
+  public var eqConfig: IMBluetoothKit::XA01EQConfig?
+  public var allEqModes: [IMBluetoothKit::XA01EQConfig]
+  public var keyMappings: IMBluetoothKit::XA01KeyMappings
+  public var connectedPhones: [IMBluetoothKit::XA01ConnectedPhone]
+  public var bluetoothStatus: IMBluetoothKit::XA01BluetoothStatusInfo?
+  public var wearState: IMBluetoothKit::XA01WearState?
+  public var bisDevices: [IMBluetoothKit::XA01BISDevice]
+  public var cemiData: IMBluetoothKit::XA01CEMIData?
+  public var lastButtonEvent: IMBluetoothKit::XA01EarButtonEvent?
+  public var lastAck: IMBluetoothKit::XA01Ack?
+  public var deviceSn: Swift::String? {
+    get
+  }
+  public init()
+  public static func == (a: IMBluetoothKit::XA01DeviceState, b: IMBluetoothKit::XA01DeviceState) -> Swift::Bool
+}
+public struct XA01BeaconFilter : IMBluetoothKit::DeviceFilter {
+  public let allowedProductIds: Swift::Set<Swift::UInt16>
+  public let minRSSI: Swift::Int
+  public init(allowedProductIds: Swift::Set<Swift::UInt16>, minRSSI: Swift::Int = -90)
+  public func matches(_ peripheral: IMBluetoothKit::BluetoothPeripheral) -> Swift::Bool
+}
+final public class XA01Factory : IMBluetoothKit::DeviceFactory {
+  final public let filter: any IMBluetoothKit::DeviceFilter
+  final public var typeIdentifier: Swift::String {
+    get
+  }
+  public init()
+  final public func makeDevice(_ peripheral: IMBluetoothKit::BluetoothPeripheral, manager: any IMBluetoothKit::BluetoothManagerProtocol) -> any IMBluetoothKit::BluetoothDevice
+  @objc deinit
+}
+public struct XA01Frame : Swift::Equatable {
+  public enum XA01CmdType : Swift::UInt8 {
+    case request
+    case response
+    case notify
+    public init?(rawValue: Swift::UInt8)
+    public typealias RawValue = Swift::UInt8
+    public var rawValue: Swift::UInt8 {
+      get
+    }
+  }
+  public let seq: Swift::UInt8
+  public let encrypted: Swift::Bool
+  public let cmd: Swift::UInt8
+  public let type: IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType
+  public let frameSeq: Swift::UInt8
+  public let totalFramesMinusOne: Swift::UInt8
+  public let payload: Foundation::Data
+  public static let headerSize: Swift::Int
+  public static let maxPayloadPerFrame: Swift::Int
+  public init(seq: Swift::UInt8, encrypted: Swift::Bool, cmd: Swift::UInt8, type: IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType, frameSeq: Swift::UInt8, totalFramesMinusOne: Swift::UInt8, payload: Foundation::Data)
+  public func encode() -> Foundation::Data
+  public static func splitToFrames(seq: Swift::UInt8, encrypted: Swift::Bool, cmd: Swift::UInt8, type: IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType, payload: Foundation::Data, sliceSize: Swift::Int) -> [IMBluetoothKit::XA01Frame]
+  public static func decode(_ data: Foundation::Data) -> IMBluetoothKit::XA01Frame?
+  public static func == (a: IMBluetoothKit::XA01Frame, b: IMBluetoothKit::XA01Frame) -> Swift::Bool
+}
+final public class XA01FrameAssembler {
+  public init()
+  final public func feed(_ f: IMBluetoothKit::XA01Frame) -> (cmd: Swift::UInt8, type: IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType, payload: Foundation::Data)?
+  final public func reset()
+  @objc deinit
+}
+public enum XA01KnownProductId {
+  public static let audioE13V: Swift::UInt16
+  public static let audioGlasses: Swift::Set<Swift::UInt16>
+  public static let cameraPA: Swift::UInt16
+  public static let cameraGlasses: Swift::Set<Swift::UInt16>
+  public static func name(for productId: Swift::UInt16) -> Swift::String?
+}
+final public class XA01Parser : IMBluetoothKit::BluetoothProtocolParser {
+  public init()
+  final public func reset()
+  final public func parse(data: Foundation::Data) -> [any IMBluetoothKit::DeviceEvent]
+  @objc deinit
+}
+public enum XA01TLV {
+  public static func encode(_ items: [(type: Swift::UInt8, value: Foundation::Data)]) -> Foundation::Data
+  public static func encode(_ type: Swift::UInt8, _ value: Foundation::Data) -> Foundation::Data
+  public static func encode(_ type: Swift::UInt8, byte: Swift::UInt8) -> Foundation::Data
+  public static func encodeQuery(_ types: [Swift::UInt8]) -> Foundation::Data
+  public static func decode(_ data: Foundation::Data) -> [(type: Swift::UInt8, value: Foundation::Data)]
+  public static func value(of type: Swift::UInt8, in data: Foundation::Data) -> Foundation::Data?
+}
+extension IMBluetoothKit::OTAType : Swift::Equatable {}
+extension IMBluetoothKit::OTAType : Swift::Hashable {}
+extension IMBluetoothKit::BluetoothLogger.IMBluetoothKit::Direction : Swift::Equatable {}
+extension IMBluetoothKit::BluetoothLogger.IMBluetoothKit::Direction : Swift::Hashable {}
+extension IMBluetoothKit::BluetoothLogger.IMBluetoothKit::Direction : Swift::RawRepresentable {}
+extension IMBluetoothKit::SwitchPolicy : Swift::Equatable {}
+extension IMBluetoothKit::SwitchPolicy : Swift::Hashable {}
+extension IMBluetoothKit::XA01AudioCmd : Swift::Equatable {}
+extension IMBluetoothKit::XA01AudioCmd : Swift::Hashable {}
+extension IMBluetoothKit::XA01AudioCmd : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01AudioInfoType : Swift::Equatable {}
+extension IMBluetoothKit::XA01AudioInfoType : Swift::Hashable {}
+extension IMBluetoothKit::XA01AudioInfoType : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01OTAStatusCode : Swift::Equatable {}
+extension IMBluetoothKit::XA01OTAStatusCode : Swift::Hashable {}
+extension IMBluetoothKit::XA01OTAStatusCode : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01MediaTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01MediaTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01MediaTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01KeyMappingTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01KeyMappingTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01KeyMappingTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01KeyFunction : Swift::Equatable {}
+extension IMBluetoothKit::XA01KeyFunction : Swift::Hashable {}
+extension IMBluetoothKit::XA01KeyFunction : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01ANCTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01ANCTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01ANCTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01MultipointTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01MultipointTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01MultipointTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01DynamicBassTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01DynamicBassTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01DynamicBassTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01OpusRecordingTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01OpusRecordingTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01OpusRecordingTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01BISLinkAction : Swift::Equatable {}
+extension IMBluetoothKit::XA01BISLinkAction : Swift::Hashable {}
+extension IMBluetoothKit::XA01BISLinkAction : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01FindEarbudsAction : Swift::Equatable {}
+extension IMBluetoothKit::XA01FindEarbudsAction : Swift::Hashable {}
+extension IMBluetoothKit::XA01FindEarbudsAction : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01WorkMode : Swift::Equatable {}
+extension IMBluetoothKit::XA01WorkMode : Swift::Hashable {}
+extension IMBluetoothKit::XA01WorkMode : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01ANCMode : Swift::Equatable {}
+extension IMBluetoothKit::XA01ANCMode : Swift::Hashable {}
+extension IMBluetoothKit::XA01ANCMode : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01SensorAutoShutDown : Swift::Equatable {}
+extension IMBluetoothKit::XA01SensorAutoShutDown : Swift::Hashable {}
+extension IMBluetoothKit::XA01SensorAutoShutDown : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01PromptToneLanguage : Swift::Equatable {}
+extension IMBluetoothKit::XA01PromptToneLanguage : Swift::Hashable {}
+extension IMBluetoothKit::XA01PromptToneLanguage : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01CallControlAction : Swift::Equatable {}
+extension IMBluetoothKit::XA01CallControlAction : Swift::Hashable {}
+extension IMBluetoothKit::XA01CallControlAction : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01ConnectedSide : Swift::Equatable {}
+extension IMBluetoothKit::XA01ConnectedSide : Swift::Hashable {}
+extension IMBluetoothKit::XA01ConnectedSide : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01BluetoothStatusTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01BluetoothStatusTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01BluetoothStatusTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01BISInfoTLV : Swift::Equatable {}
+extension IMBluetoothKit::XA01BISInfoTLV : Swift::Hashable {}
+extension IMBluetoothKit::XA01BISInfoTLV : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01EarButtonAction : Swift::Equatable {}
+extension IMBluetoothKit::XA01EarButtonAction : Swift::Hashable {}
+extension IMBluetoothKit::XA01EarButtonAction : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01DeviceBeacon.IMBluetoothKit::XA01ClassicBTState : Swift::Equatable {}
+extension IMBluetoothKit::XA01DeviceBeacon.IMBluetoothKit::XA01ClassicBTState : Swift::Hashable {}
+extension IMBluetoothKit::XA01DeviceBeacon.IMBluetoothKit::XA01ClassicBTState : Swift::RawRepresentable {}
+extension IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType : Swift::Equatable {}
+extension IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType : Swift::Hashable {}
+extension IMBluetoothKit::XA01Frame.IMBluetoothKit::XA01CmdType : Swift::RawRepresentable {}

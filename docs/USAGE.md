@@ -1,6 +1,6 @@
-# IMBluetoothFramework 使用指南
+# IMBluetoothKit 使用指南
 
-本文档面向 **业务 / UI 层开发者**。通过 CocoaPods 引入（`import IMBluetoothFramework`）；默认拿全量设备，也可按子规格只要 `Devices/C100` / `C110` / `XA01` 等组合包（安装细节见仓库 README）。
+本文档面向 **业务 / UI 层开发者**。通过 CocoaPods 引入（`import IMBluetoothKit`）；默认拿全量设备，也可按子规格只要 `Devices/C100` / `C110` / `XA01` 等组合包（安装细节见仓库 README）。
 
 - **Part A**：场景化用法（启动注册 → 扫描连接 → 指令 / 状态 → 重连 → Mock / 扩展）
 - **Part B**：[公开 API 参考](#公开-api-参考)（符号一览，与源码 `///` 对齐）
@@ -84,7 +84,7 @@
 最少 5 步即可跑通一台设备：
 
 ```swift
-import IMBluetoothFramework
+import IMBluetoothKit
 import RxSwift
 
 let bag = DisposeBag()
@@ -121,7 +121,7 @@ service.discoveredPeripherals
 ## 2.A 新手教程：跟着场景走一遍
 
 > 这一节按"App 真实生命周期"把所有 API 串起来，每一步都告诉你**什么时候调用、调用谁、为什么**。
-> 第一次接入 IMBluetoothFramework 的同学只看这一节就能跑通主流程。
+> 第一次接入 IMBluetoothKit 的同学只看这一节就能跑通主流程。
 
 App 完整时间线：
 
@@ -161,7 +161,7 @@ App 启动
 
 ```swift
 // AppDelegate.swift
-import IMBluetoothFramework
+import IMBluetoothKit
 
 func application(_ application: UIApplication,
                  didFinishLaunchingWithOptions launchOptions: [...]?) -> Bool {
@@ -1096,7 +1096,7 @@ for s in snapshots {
 
 #### 5.6.7 替换持久化后端
 
-默认实现写到 `UserDefaults.standard`，key 前缀为 `IMBluetoothFramework.boundDevices.`（如 `IMBluetoothFramework.boundDevices.<userID>` 与 `IMBluetoothFramework.boundDevices.lastConnected.<userID>`）。首次读写时若新 key 为空且仍有旧前缀 `BluetoothKit.boundDevices.*` 的数据，会自动迁移并删除旧 key。
+默认实现写到 `UserDefaults.standard`，key 前缀为 `IMBluetoothKit.boundDevices.`（如 `IMBluetoothKit.boundDevices.<userID>` 与 `IMBluetoothKit.boundDevices.lastConnected.<userID>`）。首次读写时若新 key 为空且仍有旧前缀 `BluetoothKit.boundDevices.*` 的数据，会自动迁移并删除旧 key。
 
 若业务对持久化位置有约束（Keychain / 自定义 DB / 远端同步等），按以下方式注入：
 
@@ -1269,7 +1269,7 @@ BluetoothService.shared.reconnectLast()    // 不关心返回值，UI 让 connec
 下面这段代码完整覆盖"App 冷启动 → 登录态恢复 → 无扫描连接"。把它塞进 `SceneDelegate.willConnectTo` / `App.swift` 启动入口即可。
 
 ```swift
-import IMBluetoothFramework
+import IMBluetoothKit
 import RxSwift
 
 final class BluetoothBootstrap {
@@ -1494,7 +1494,7 @@ UI 侧若需要展示"请打开蓝牙"提示，可订阅 `service.connectionStat
 > **源码 pod 专用：** `Mock` 子规格与 `MockBluetoothManager` **不会**打进二进制 XCFramework。二进制客户请跳过本节；单测请在源码仓或内部 `:path` 集成下使用。
 
 ```swift
-import IMBluetoothFramework
+import IMBluetoothKit
 
 let mock = MockBluetoothManager()
 let service = BluetoothService(manager: mock, registry: .shared)
@@ -1746,6 +1746,6 @@ BluetoothService.shared.reconnectLast()
 | `BluetoothUserID` | 用户分区键（`String`） |
 | `BluetoothPersistedPeripheral` | 已绑定外设 Codable 快照 |
 | `BluetoothDevicePersistence` | 持久化协议（列表 + lastConnected） |
-| `UserDefaultsBluetoothPersistence` | 默认实现；key 前缀 `IMBluetoothFramework.boundDevices.`，自 `BluetoothKit.boundDevices.*` 自动迁移 |
+| `UserDefaultsBluetoothPersistence` | 默认实现；key 前缀 `IMBluetoothKit.boundDevices.`，自 `BluetoothKit.boundDevices.*` 自动迁移 |
 | `NoopBluetoothPersistence` | 空实现（完全不落盘） |
 
