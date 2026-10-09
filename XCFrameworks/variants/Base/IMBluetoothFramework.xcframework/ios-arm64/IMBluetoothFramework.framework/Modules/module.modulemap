@@ -1,0 +1,4 @@
+framework module IMBluetoothFramework {
+  header "IMBluetoothFramework-Swift.h"
+  requires objc
+}
