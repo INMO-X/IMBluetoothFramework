@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
       ss.frameworks = 'CoreBluetooth', 'AVFoundation', 'NetworkExtension', 'Network'
       ss.dependency 'RxSwift', '~> 6.9.0'
       ss.dependency 'RxRelay', '~> 6.9.0'
-      ss.dependency 'SSZipArchive', '~> 2.4.3'
+      ss.dependency 'SSZipArchive', '~> 2.4'
     end
     ds.subspec 'C110' do |ss|
       ss.vendored_frameworks = 'XCFrameworks/variants/C110/IMBluetoothFramework.xcframework'
