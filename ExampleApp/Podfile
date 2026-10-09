@@ -3,11 +3,13 @@ use_frameworks!
 
 target 'IMBluetoothKitExample' do
   # Dev against source tree:
-#  pod 'IMBluetoothKit', :path => '../'
-  pod 'RxSwift', '~> 6.9'
-  pod 'RxRelay', '~> 6.9'
+  pod 'IMBluetoothKit', :path => '../'
+  # pod 'IMBluetoothKit/Devices/C100', :path => '../'
+  # pod 'IMBluetoothKit/Devices/C110', :path => '../'
   # Binary (GitHub):
-  pod 'IMBluetoothKit', :git => 'https://github.com/INMO-X/IMBluetoothKit.git', :tag => '0.1.0'
+  # pod 'IMBluetoothKit', :git => 'https://github.com/INMO-X/IMBluetoothKit.git', :tag => '0.1.0'
+  # pod 'IMBluetoothKit/Devices/C100', :git => 'https://github.com/INMO-X/IMBluetoothKit.git', :tag => '0.1.0'
+  # pod 'IMBluetoothKit/Devices/C100', :git => 'https://github.com/INMO-X/IMBluetoothKit.git', :tag => '0.1.0'
 end
 
 post_install do |installer|

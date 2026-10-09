@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IMBluetoothKit-Swift.h</key>
 		<data>
-		5NSm6uj+d/D5uN1jRshmhxIDj4E=
+		hgqP8QeBXrmDuLOzzK6tHjSPRTA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vreBpGk8FNcBR6JJAhcEqTEYq3U=
+		8LY6r33p/xSfZtUFoCoC4GRm1ps=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		YYGqqqZ+pw+yO4p+uoHhGCiTU+4=
+		77/VyZBkIxZIhrWwTw4zY8XObcw=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aHs5QZIuHpPYKFOtdnMQVuO3CTM=
+		ZegkXO8Zs0VdhC37ejY+oSMbSiM=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XSoXhyplsVYHSi7v+dX0j9dFnm0=
+		SbyygP7ExSLE5/lqjwEX3R1cuqw=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+jCoCPW2F1Oj4qikFZcwqDlAzdA=
+		0RXg1uP3fIh41bnvUFhIcdjPFpg=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XSoXhyplsVYHSi7v+dX0j9dFnm0=
+		SbyygP7ExSLE5/lqjwEX3R1cuqw=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hUITMr1tlv43tJSQXfkCDzP3nv4=
+		nHXgSTyWgeClFlprQ8+6lwBzS3Y=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aHs5QZIuHpPYKFOtdnMQVuO3CTM=
+		ZegkXO8Zs0VdhC37ejY+oSMbSiM=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TruEyV2N1qt52qPbf9mDcw3e6Uc=
+		EMrhtPBTysvJmP2k6jUeqItAQ9g=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dvfu3HQYRCaTyzkiL/FgQX7gGhs=
+		rtI1AiwOuY/8S7WhM2wRtn9u2cI=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TruEyV2N1qt52qPbf9mDcw3e6Uc=
+		EMrhtPBTysvJmP2k6jUeqItAQ9g=
 		</data>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vKmRB0dyWq3v54p6Hc8rnV5w8Js=
+		l67j1y8h4ajUj0m4LUK5+H0juuA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,91 +71,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fRm0IwxuxhMFjF/PVF6NHgNu6AfvYH5n4IGNdMcAqXE=
+			qz59veLVJX0r0W9BPp8C18d50iHJF5Jdk/7UG2CGy2A=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4cP1SVMjeGnjXIun+gohSBm3OYXVft+EtR81pip0SI=
+			Y4ZV0hRYKzFCA3WlEXGQ3/6y364qghQUnERJQtxwrXY=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/LOrp9+CFBN2EiCBsQc56AsxGZM5HlQ9BLCG2DgMEMg=
+			xQaceANTc9NsbL1nq8YWYIkLDsyoaOucxtJLCbqxDVY=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MvzR+1QMNOAiOOyKY660PUwAZwQUYH1iNPIQsMjau1I=
+			bXa33s5oKHb6s0RbfCSJMn1Xinc0x0YmO+PAN6C7tIk=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0gtY+VTB5v61hNPUrT5IaEqqh0GZCYI8R83BI2m+jk=
+			vh3DWUgdRcNTW0rGGizmcAWfhdN62bIn27EBv3ikBGI=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9iN+ASolDozw21amdzp3u/Kf4sgLlkTjva9L4dgBkY=
+			6iUPoLffAXNRxu4aSlZSGHfLA77h1p3QzetB3lXA26w=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0gtY+VTB5v61hNPUrT5IaEqqh0GZCYI8R83BI2m+jk=
+			vh3DWUgdRcNTW0rGGizmcAWfhdN62bIn27EBv3ikBGI=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Ze4y1zLHJ4TnciN1yJz3IUPmsTj8YQGA/FsWgap2TU=
+			hYj6vEiwEqujXZxCf8cA5SWWhpQYGv4kdtvRPbrsXEg=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MvzR+1QMNOAiOOyKY660PUwAZwQUYH1iNPIQsMjau1I=
+			bXa33s5oKHb6s0RbfCSJMn1Xinc0x0YmO+PAN6C7tIk=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OMWdZuw7KaevYcZoOUteKjW9LAMvUGZ8B/NLF/PFiM=
+			pwovXwxtPhqSY7grflOcjBsB3R14gRdShe96OzyF8XM=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4BTH9Q7Ryb6AlRByxZRYZP0seRqn7uL5PMRo0Vm+as=
+			vR3exBENPzD2DctQChXwO9V4ESEwfLwBlQGr1C8NsHA=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OMWdZuw7KaevYcZoOUteKjW9LAMvUGZ8B/NLF/PFiM=
+			pwovXwxtPhqSY7grflOcjBsB3R14gRdShe96OzyF8XM=
 			</data>
 		</dict>
 		<key>Modules/IMBluetoothKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mypj+XjY4UqWLXdbCXzFNp1t63DpRDiuy+RWvzpkf/E=
+			Npct0xy4Cl97Obsqwl5cDMErAqMdGqO4gpCC/iUUVs8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

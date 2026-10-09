@@ -372,8 +372,6 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-/// <code>BluetoothManagerProtocol</code> 的 CoreBluetooth 实现。
-/// 严格约束：不得出现任何设备类型 / 业务分支；字节与连接事件原样透出给 Service。
 SWIFT_CLASS("_TtC14IMBluetoothKit16BluetoothManager")
 @interface BluetoothManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -440,6 +438,23 @@ SWIFT_CLASS("_TtC14IMBluetoothKit16BluetoothManager")
 /// 写入完成回调（仅 withResponse 写入会触发）。
 /// 当前实现只打印错误日志；如需上层感知”写成功 / 失败”，可扩展一条专门的回执流。
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didWriteValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
+@end
+
+SWIFT_CLASS("_TtC14IMBluetoothKit18EASessionTransport")
+@interface EASessionTransport : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSStream;
+@interface EASessionTransport (SWIFT_EXTENSION(IMBluetoothKit)) <NSStreamDelegate>
+- (void)stream:(NSStream * _Nonnull)aStream handleEvent:(NSStreamEvent)eventCode;
+@end
+
+SWIFT_CLASS("_TtC14IMBluetoothKit23ExternalAccessoryCenter")
+@interface ExternalAccessoryCenter : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif // defined(__OBJC__)

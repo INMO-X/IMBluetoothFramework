@@ -1,7 +1,7 @@
 # C100WifiSession 使用说明
 
-> 文件位置：`PrivatePods/IMBluetoothKit/IMBluetoothKit/Devices/C100/C100WifiSession.swift`
-> 所属 subspec：`IMBluetoothKit/Devices/C100`
+> 文件位置：`PrivatePods/BluetoothKit/BluetoothKit/Devices/C100/C100WifiSession.swift`
+> 所属 subspec：`BluetoothKit/Devices/C100`
 
 C100 眼镜热点会话编排器：把协议 v2.3 里 `0x44 / 0x45` 两条原语和 iOS 端的
 `NEHotspotConfigurationManager` 组合成一条**有限状态机**，对外只暴露状态流 +
@@ -125,8 +125,8 @@ wifiTransDoneAck│ errorAck(0x45)│ finishTimeout 5s
 
 **约定**：进入任何 `.failed` 之前，已经做完了以下兜底：
 1. 取消所有未触发的 DispatchWorkItem；
-2. 如果上一阶段已经 join 过热点（`lastJoinedSSID != nil`），主动
-   `removeConfiguration(forSSID:)` 拆掉，避免在 iOS 设置 → WiFi 里残留眼镜 SSID。
+2. 如果 iPhone 仍挂在眼镜热点上（`lastJoinedSSID != nil`）且无法确认眼镜已关热点，
+   强制 `removeConfiguration(forSSID:)` 让 iPhone 离开（见 §4.9「热点配置保留策略」）。
 
 所以业务侧拿到 `.failed` 时**不需要**再去手动清理超时定时器或断 hotspot。
 
@@ -227,21 +227,21 @@ App 端**只在字节数 + 可选 CRC 都对的上**才发 `0x00`——一旦发
 ### 4.3 `.finishTimeout` 的兜底逻辑
 
 `finish(result: 0x00)` 发出后没收到眼镜 ack（5s 内）→ 进入 `.finishTimeout`。
-此时**眼镜不会**删原文件 / 关热点，但 App 侧已经主动 `removeConfiguration(ssid)`
-退出热点，避免 iOS WiFi 列表残留。
+此时**眼镜不会**删原文件 / 关热点，App 侧强制 `removeConfiguration(ssid)` 退出热点，
+避免 iPhone 一直挂在没有互联网的眼镜热点上（代价：下次同步会再弹一次加入确认）。
 
 下一次 `open(...)` 时眼镜会重新开热点，原文件还在，可以再传一遍。所以
 `.finishTimeout` 不是数据丢失，是"未确认完成"——业务层一般按警告级别处理就够。
 
 ### 4.4 状态机的并发与重入
 
-- `open(fileName:)` 在非 `.idle` 状态下调用：内部会先做完
-  `cancelTimeouts() + leaveHotspotIfNeeded()`，再迁到 `.requesting`，
+- `open(fileName:)` / `openHotspot()` 在非 `.idle` 状态下调用：内部先 `cancelTimeouts()`，
+  **不删热点配置**（同一热点再次加入无需重新授权），再迁到 `.requesting`，
   上一轮的回包不会再误触当前轮（每个超时都校验 `current` 的 fileName 字段）。
 - `finish(result:)` 不在 `.joined` 状态下调用：等价于 `cancel()`，
   避免错误时序把状态机搞乱。
 - `eventStream` 是长订阅，`deinit` 时一并 dispose；`C100Device` 被释放时
-  `wifiSession` 也跟着释放、`leaveHotspotIfNeeded()` 会再兜底拆一次 hotspot。
+  `wifiSession` 也跟着释放，若会话中途被释放（仍挂在热点上）会强制离开热点。
 
 ### 4.5 NEHotspot 的 `alreadyAssociated` 不是错误
 
@@ -268,13 +268,24 @@ App 端**只在字节数 + 可选 CRC 都对的上**才发 `0x00`——一旦发
 
 如果用户在会话进行中切换到其它 C100 设备：
 - 旧 `C100Device` 被 `BluetoothService` 移出 cachedDevices 后引用减一；
-- 业务层若没有强持有 `wifiSession`，整个会话会被 GC，`deinit` 自动
-  `leaveHotspotIfNeeded()`；
+- 业务层若没有强持有 `wifiSession`，整个会话会被释放，`deinit` 时若仍挂在热点上会强制离开；
 - 若业务层强持有了 `wifiSession`（如 ViewModel 里 `let session = c100.wifiSession`），
   手动调 `session.cancel()` 收尾。
 
-### 4.9 `joinOnce = true` 的含义
+### 4.9 热点配置保留策略（`joinOnce = false`）
 
-`NEHotspotConfiguration` 默认会把眼镜 SSID 写入用户的"已知网络"列表（甚至跨设备
-同步给 iCloud Keychain）。本类设了 `joinOnce = true`，让连接**仅本次有效**——
-用户在 iOS 设置 → WiFi 里不会看到"INMO_C100_xxx"被保存，避免污染用户的 WiFi 历史。
+iOS 只在**第一次**加入某个 SSID 时弹「想要加入无线局域网」。以前每次结束都 `removeConfiguration`，
+下次同步对系统来说又是新网络，于是每次都弹。现在：
+
+| 场景 | 处理 | 下次是否弹窗 |
+|---|---|---|
+| 正常结束（眼镜确认关热点：0x15 关回执 / 0x45 成功回执） | 保留配置；眼镜关热点后 iPhone 自然断开，回到原 Wi-Fi / 蜂窝 | 不弹 |
+| `cancel()` 且链路可用（0x15 会话） | 发 0x15 让眼镜关热点，保留配置 | 不弹 |
+| `cancel()` 且链路不可用 / 0x44 文件会话、收尾超时、回执被拒 / 异常、加入超时、会话中途释放 | 强制 `removeConfiguration` 让 iPhone 离开 | 弹一次 |
+| 热点 SSID 变化 | 删除旧 SSID 的配置，保存新的 | 新 SSID 弹一次 |
+| 解绑 / 恢复出厂（`IMDeviceUnbindFlow`） | `C100WifiSession.forgetSavedHotspot(deviceID:)` 删除配置 | — |
+
+- 保留的 SSID 按眼镜存在 `UserDefaults`（`c100.hotspot.savedSSID.<设备UUID>`），供解绑时清理。
+- 代价：眼镜 SSID 会出现在「设置 → 无线局域网」的已知网络里；眼镜热点开着时 iPhone 可能自动加入。
+  热点只在同步 / OTA / 日志下载期间开启，影响很小。
+- 前提：眼镜每次开热点的 SSID 与密码保持不变（需固件确认）；每次变化则仍会每次弹窗。
