@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMBluetoothFramework'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'INMO X Bluetooth Framework (binary distribution)'
   s.description      = <<-DESC
   INMO X 蓝牙框架二进制发行版。按子规格选择 Full / Base / 单设备组合包；
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
       ss.frameworks = 'CoreBluetooth', 'AVFoundation', 'NetworkExtension', 'Network'
       ss.dependency 'RxSwift', '~> 6.9.0'
       ss.dependency 'RxRelay', '~> 6.9.0'
-      ss.dependency 'SSZipArchive', '~> 2.4'
+      ss.dependency 'SSZipArchive', '~> 2.4.3'
     end
     ds.subspec 'C110' do |ss|
       ss.vendored_frameworks = 'XCFrameworks/variants/C110/IMBluetoothFramework.xcframework'

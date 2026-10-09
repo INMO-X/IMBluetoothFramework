@@ -20,7 +20,7 @@ use_frameworks!
 target 'YourApp' do
   pod 'IMBluetoothFramework',
     :git => 'https://github.com/INMO-X/IMBluetoothFramework.git',
-    :tag => '0.1.2'
+    :tag => '0.1.3'
 end
 ```
 
@@ -30,12 +30,12 @@ end
 GIT = 'https://github.com/INMO-X/IMBluetoothFramework.git'
 
 # 仅基础层（自行实现 Device）
-pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.2'
+pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.3'
 
 # 单产品线组合包（已含 Base 能力，无需再写 Base）—— 每次只选一行
-pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.2'
-# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.2'
-# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.2'
+pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.3'
+# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.3'
+# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.3'
 ```
 
 执行 `pod install` 后 `import IMBluetoothFramework` 即可。
