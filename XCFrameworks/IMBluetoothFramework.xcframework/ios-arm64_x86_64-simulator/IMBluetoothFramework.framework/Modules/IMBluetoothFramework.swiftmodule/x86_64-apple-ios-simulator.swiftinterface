@@ -9,8 +9,8 @@ import Network
 import NetworkExtension
 import RxRelay
 import RxSwift
+import SSZipArchive
 import Swift
-import ZipArchive
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

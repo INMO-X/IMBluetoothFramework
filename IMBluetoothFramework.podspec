@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMBluetoothFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'INMO X Bluetooth Framework (binary distribution)'
   s.description      = <<-DESC
   INMO X 蓝牙框架二进制发行版。按子规格选择 Full / Base / 单设备组合包；
@@ -28,6 +28,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_version    = '5.0'
   s.default_subspecs = ['Full']
+
+  # Also ship PrivacyInfo as a CocoaPods resource bundle so it appears under Pods
+  # after `pod install` (in addition to the copy embedded inside each XCFramework).
+  s.resource_bundles = {
+    'IMBluetoothFramework_PrivacyInfo' => ['PrivacyInfo.xcprivacy']
+  }
 
   s.subspec 'Full' do |ss|
     ss.vendored_frameworks = 'XCFrameworks/IMBluetoothFramework.xcframework'

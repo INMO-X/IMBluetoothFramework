@@ -13,7 +13,12 @@ The framework ships a privacy manifest that declares:
 | `NSPrivacyCollectedDataTypes` | Empty — the framework does not declare collection of data types for App Store privacy labeling via this manifest. |
 | `NSPrivacyAccessedAPITypes` | **UserDefaults** (`NSPrivacyAccessedAPICategoryUserDefaults`) with reason **`CA92.1`** — access to app-scoped preferences and device state stored on behalf of the host app (bound devices and last-connected peripheral under keys prefixed with **`IMBluetoothFramework.boundDevices.`** in `UserDefaultsBluetoothPersistence`, plus C100 classic-link state in `C100ClassicLinkDetector`), not for cross-app tracking. |
 
-The manifest file lives at `IMBluetoothFramework/PrivacyInfo.xcprivacy`. Embedding it into built XCFramework bundles is handled by the release build pipeline (see release tasks); consumers receive the manifest inside the framework when they integrate the binary product.
+The manifest file lives at `IMBluetoothFramework/PrivacyInfo.xcprivacy` in the source tree.
+
+**Binary (CocoaPods) consumers receive it in two places:**
+
+1. **Inside each XCFramework slice** — `IMBluetoothFramework.framework/PrivacyInfo.xcprivacy` (Xcode / App Store privacy aggregation reads this). Expand the `.xcframework` → `ios-arm64` → `IMBluetoothFramework.framework` in Finder if you need to inspect it; CocoaPods Project Navigator often does **not** list files inside vendored frameworks.
+2. **As a CocoaPods resource bundle** — `IMBluetoothFramework_PrivacyInfo` (file `PrivacyInfo.xcprivacy` at the pod root), so it also appears under Pods after `pod install`.
 
 ## Host app requirements (Info.plist & capabilities)
 

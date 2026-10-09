@@ -20,7 +20,7 @@ use_frameworks!
 target 'YourApp' do
   pod 'IMBluetoothFramework',
     :git => 'https://github.com/INMO-X/IMBluetoothFramework.git',
-    :tag => '0.1.0'
+    :tag => '0.1.2'
 end
 ```
 
@@ -30,15 +30,17 @@ end
 GIT = 'https://github.com/INMO-X/IMBluetoothFramework.git'
 
 # 仅基础层（自行实现 Device）
-pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.0'
+pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.2'
 
 # 单产品线组合包（已含 Base 能力，无需再写 Base）—— 每次只选一行
-pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.0'
-# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.0'
-# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.0'
+pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.2'
+# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.2'
+# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.2'
 ```
 
 执行 `pod install` 后 `import IMBluetoothFramework` 即可。
+
+隐私清单：`PrivacyInfo.xcprivacy` 嵌在 XCFramework 内，并额外以 CocoaPods resource bundle `IMBluetoothFramework_PrivacyInfo` 提供（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）。
 
 Xcode 16+/27 SDK 下，传递依赖（如 RxSwift）若仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，请在宿主 `Podfile` 增加与 ExampleApp 相同的 `post_install` 提升到 15.0：
 
@@ -129,6 +131,6 @@ device.send(command: C100DeviceCommand.takePhoto)
 |------|------|
 | [docs/USAGE.md](docs/USAGE.md) | 业务场景与公开 API 参考 |
 | [docs/PRIVACY.md](docs/PRIVACY.md) | Privacy manifest 与宿主 App Info.plist 要求 |
-| [ExampleApp/](ExampleApp/) | 可运行 Demo（bind → reconnect → 列表 → 扫描连接 → 状态） |
+| 源码仓 `ExampleApp/` | 可运行 Demo（仅内部源码仓；**不**随公开二进制仓发布） |
 
 宿主 App 须在 Info.plist 配置 **`NSBluetoothAlwaysUsageDescription`**；C100/C110 Wi‑Fi 同步相关能力见 [docs/PRIVACY.md](docs/PRIVACY.md)。
