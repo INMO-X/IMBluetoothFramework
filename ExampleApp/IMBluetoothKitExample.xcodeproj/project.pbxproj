@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFAA9EE4B945968FE3351F9 /* Pods_IMBluetoothKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C4343F0B8F24DED7CC104 /* Pods_IMBluetoothKitExample.framework */; };
+		167CC3FCA8551044B9EB1F4E /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2289C5E5294BFF7DEC642 /* DeviceListViewController.swift */; };
+		254817608CB84DEF8C9E0F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024894C80C0A8BC148CFFB7D /* AppDelegate.swift */; };
+		27DF98AAB3AA3686652DF3A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19866BF2586833CDC434B9 /* LoginViewController.swift */; };
+		30AD79D7901E5CCA885663A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB58DB5C37C9A1F4C165449 /* LaunchScreen.storyboard */; };
+		57C79741DC641B2D2FEFB766 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B66BDCE19B09E3056E5088 /* ScanViewController.swift */; };
+		A85DCBAEB99F651A6DE4391A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD408996BB399D0C9F8DCAAB /* SceneDelegate.swift */; };
+		F2760958F0B31B102B85186E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F78474951AE79AF9BFE54 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024894C80C0A8BC148CFFB7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D19866BF2586833CDC434B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49B66BDCE19B09E3056E5088 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		6A0E07D9C86849EC224C4209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		734F779728FFB34753E2341D /* Pods-IMBluetoothKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMBluetoothKitExample.debug.xcconfig"; path = "Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		766E063331E3550C397975A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		886C4343F0B8F24DED7CC104 /* Pods_IMBluetoothKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMBluetoothKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F78474951AE79AF9BFE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7C98F2638E3B11BD2360AA2 /* Pods-IMBluetoothKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMBluetoothKitExample.release.xcconfig"; path = "Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		BAF2289C5E5294BFF7DEC642 /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		C0BC5ED6E82772EDD9E9FA9B /* IMBluetoothKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMBluetoothKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD408996BB399D0C9F8DCAAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5281524D937BAFE4A95044EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFAA9EE4B945968FE3351F9 /* Pods_IMBluetoothKitExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BB776676D99214C9877790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886C4343F0B8F24DED7CC104 /* Pods_IMBluetoothKitExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C645B331AA2F0E758C08CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				734F779728FFB34753E2341D /* Pods-IMBluetoothKitExample.debug.xcconfig */,
+				B7C98F2638E3B11BD2360AA2 /* Pods-IMBluetoothKitExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDA410B1D444EFCE3B49291A /* IMBluetoothKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				4BB58DB5C37C9A1F4C165449 /* LaunchScreen.storyboard */,
+				024894C80C0A8BC148CFFB7D /* AppDelegate.swift */,
+				8F0F78474951AE79AF9BFE54 /* Assets.xcassets */,
+				BAF2289C5E5294BFF7DEC642 /* DeviceListViewController.swift */,
+				6A0E07D9C86849EC224C4209 /* Info.plist */,
+				2D19866BF2586833CDC434B9 /* LoginViewController.swift */,
+				49B66BDCE19B09E3056E5088 /* ScanViewController.swift */,
+				DD408996BB399D0C9F8DCAAB /* SceneDelegate.swift */,
+			);
+			path = IMBluetoothKitExample;
+			sourceTree = "<group>";
+		};
+		CFE5B491469B791BA9CAEDE4 = {
+			isa = PBXGroup;
+			children = (
+				CDA410B1D444EFCE3B49291A /* IMBluetoothKitExample */,
+				DFD0AAD3A067E7D4B1CA0BCE /* Products */,
+				96C645B331AA2F0E758C08CC /* Pods */,
+				14BB776676D99214C9877790 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD0AAD3A067E7D4B1CA0BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC5ED6E82772EDD9E9FA9B /* IMBluetoothKitExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB4F51237A4E29CB80F913D /* IMBluetoothKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63D0DAB691EDC5DC13769B7 /* Build configuration list for PBXNativeTarget "IMBluetoothKitExample" */;
+			buildPhases = (
+				5E5197FAEF3639BFCD4FD7DD /* [CP] Check Pods Manifest.lock */,
+				9D9E38B1AFB8A2A4CB5FD120 /* Sources */,
+				6C15A003B3ABF8E5E17A5F03 /* Resources */,
+				5281524D937BAFE4A95044EB /* Frameworks */,
+				EE9F4BD3C9D9B050EF6ADCE5 /* [CP] Embed Pods Frameworks */,
+				A227136D74E4DAB17F788521 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMBluetoothKitExample;
+			productName = IMBluetoothKitExample;
+			productReference = C0BC5ED6E82772EDD9E9FA9B /* IMBluetoothKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E385B6FE7561F81D387B2FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5AB4F51237A4E29CB80F913D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 59566EB774D0EAE713FF9F78 /* Build configuration list for PBXProject "IMBluetoothKitExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CFE5B491469B791BA9CAEDE4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFD0AAD3A067E7D4B1CA0BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB4F51237A4E29CB80F913D /* IMBluetoothKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C15A003B3ABF8E5E17A5F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2760958F0B31B102B85186E /* Assets.xcassets in Resources */,
+				30AD79D7901E5CCA885663A8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E5197FAEF3639BFCD4FD7DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMBluetoothKitExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A227136D74E4DAB17F788521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9F4BD3C9D9B050EF6ADCE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMBluetoothKitExample/Pods-IMBluetoothKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9E38B1AFB8A2A4CB5FD120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254817608CB84DEF8C9E0F3F /* AppDelegate.swift in Sources */,
+				167CC3FCA8551044B9EB1F4E /* DeviceListViewController.swift in Sources */,
+				27DF98AAB3AA3686652DF3A9 /* LoginViewController.swift in Sources */,
+				57C79741DC641B2D2FEFB766 /* ScanViewController.swift in Sources */,
+				A85DCBAEB99F651A6DE4391A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BB58DB5C37C9A1F4C165449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766E063331E3550C397975A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3BCB5AEECB608FA562130B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3211B5D82517ECA8C04C58D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48FB7BD713110F6A42118A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734F779728FFB34753E2341D /* Pods-IMBluetoothKitExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2PYYBFFM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IMBluetoothKitExample/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要蓝牙以连接 INMO 眼镜设备";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inmo.x;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8565140B6A31AD835038609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C98F2638E3B11BD2360AA2 /* Pods-IMBluetoothKitExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2PYYBFFM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IMBluetoothKitExample/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要蓝牙以连接 INMO 眼镜设备";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inmo.x;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59566EB774D0EAE713FF9F78 /* Build configuration list for PBXProject "IMBluetoothKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3211B5D82517ECA8C04C58D1 /* Debug */,
+				2C3BCB5AEECB608FA562130B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B63D0DAB691EDC5DC13769B7 /* Build configuration list for PBXNativeTarget "IMBluetoothKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FB7BD713110F6A42118A96 /* Debug */,
+				8565140B6A31AD835038609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E385B6FE7561F81D387B2FB /* Project object */;
+}
