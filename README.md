@@ -42,7 +42,11 @@ pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.3'
 
 隐私清单：`PrivacyInfo.xcprivacy` 嵌在 XCFramework 内，并额外以 CocoaPods resource bundle `IMBluetoothFramework_PrivacyInfo` 提供（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）。
 
-Xcode 16+/27 SDK 下，传递依赖（如 RxSwift）若仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，请在宿主 `Podfile` 增加与 ExampleApp 相同的 `post_install` 提升到 15.0：
+宿主 `Podfile` 请使用与 ExampleApp 相同的 `post_install`（**必做**）：
+
+1. 将传递依赖的 `IPHONEOS_DEPLOYMENT_TARGET` 提升到 15.0（Xcode 16+/27 SDK）
+2. 对 **RxSwift / RxRelay** 开启 `BUILD_LIBRARY_FOR_DISTRIBUTION=YES`  
+   （二进制包按 library evolution 链接外部 RxSwift；否则真机会 dyld 报 `Symbol not found: …Disposable…FTj`）
 
 ```ruby
 post_install do |installer|
@@ -51,10 +55,15 @@ post_install do |installer|
       if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 15.0
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
       end
+      if %w[RxSwift RxRelay].include?(target.name)
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
     end
   end
 end
 ```
+
+然后 `pod install`，并 **Clean Build Folder** 后再跑。
 
 ---
 
