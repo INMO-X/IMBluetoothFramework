@@ -20,7 +20,7 @@ use_frameworks!
 target 'YourApp' do
   pod 'IMBluetoothFramework',
     :git => 'https://github.com/INMO-X/IMBluetoothFramework.git',
-    :tag => '0.1.3'
+    :tag => '0.1.4'
 end
 ```
 
@@ -30,23 +30,19 @@ end
 GIT = 'https://github.com/INMO-X/IMBluetoothFramework.git'
 
 # 仅基础层（自行实现 Device）
-pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.3'
+pod 'IMBluetoothFramework/Base', :git => GIT, :tag => '0.1.4'
 
 # 单产品线组合包（已含 Base 能力，无需再写 Base）—— 每次只选一行
-pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.3'
-# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.3'
-# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.3'
+pod 'IMBluetoothFramework/Devices/C100', :git => GIT, :tag => '0.1.4'
+# pod 'IMBluetoothFramework/Devices/C110', :git => GIT, :tag => '0.1.4'
+# pod 'IMBluetoothFramework/Devices/XA01', :git => GIT, :tag => '0.1.4'
 ```
 
 执行 `pod install` 后 `import IMBluetoothFramework` 即可。
 
 隐私清单：`PrivacyInfo.xcprivacy` 嵌在 XCFramework 内，并额外以 CocoaPods resource bundle `IMBluetoothFramework_PrivacyInfo` 提供（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）。
 
-宿主 `Podfile` 请使用与 ExampleApp 相同的 `post_install`（**必做**）：
-
-1. 将传递依赖的 `IPHONEOS_DEPLOYMENT_TARGET` 提升到 15.0（Xcode 16+/27 SDK）
-2. 对 **RxSwift / RxRelay** 开启 `BUILD_LIBRARY_FOR_DISTRIBUTION=YES`  
-   （二进制包按 library evolution 链接外部 RxSwift；否则真机会 dyld 报 `Symbol not found: …Disposable…FTj`）
+Xcode 16+/27 SDK 下，若传递依赖仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，可在宿主 `Podfile` 增加与 ExampleApp 相同的 `post_install`（仅此一项，**无需**再改 RxSwift 的 `BUILD_LIBRARY_FOR_DISTRIBUTION`）：
 
 ```ruby
 post_install do |installer|
@@ -55,15 +51,10 @@ post_install do |installer|
       if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 15.0
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
       end
-      if %w[RxSwift RxRelay].include?(target.name)
-        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-      end
     end
   end
 end
 ```
-
-然后 `pod install`，并 **Clean Build Folder** 后再跑。
 
 ---
 

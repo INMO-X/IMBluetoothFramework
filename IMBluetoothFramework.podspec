@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMBluetoothFramework'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'INMO X Bluetooth Framework (binary distribution)'
   s.description      = <<-DESC
   INMO X 蓝牙框架二进制发行版。按子规格选择 Full / Base / 单设备组合包；
