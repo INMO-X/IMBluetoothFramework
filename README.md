@@ -45,7 +45,7 @@ pod 'BluetoothKit/Devices/C100', :git => GIT, :tag => '0.1.0'
 
 隐私清单：`PrivacyInfo.xcprivacy` 嵌在 XCFramework 内，并额外以 CocoaPods resource bundle `BluetoothKit_PrivacyInfo` 提供（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）。
 
-Xcode 16+/27 SDK 下，若传递依赖仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，可在宿主 `Podfile` 增加与 ExampleApp 相同的 `post_install`（仅此一项，**无需**再改 RxSwift 的 `BUILD_LIBRARY_FOR_DISTRIBUTION`）：
+Xcode 16+/27 SDK 下，若传递依赖仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，可在宿主 `Podfile` 增加与 Example 相同的 `post_install`（仅此一项，**无需**再改 RxSwift 的 `BUILD_LIBRARY_FOR_DISTRIBUTION`）：
 
 ```ruby
 post_install do |installer|
@@ -134,6 +134,6 @@ device.send(command: C100DeviceCommand.takePhoto)
 |------|------|
 | [docs/USAGE.md](docs/USAGE.md) | 业务场景与公开 API 参考 |
 | [docs/PRIVACY.md](docs/PRIVACY.md) | Privacy manifest 与宿主 App Info.plist 要求 |
-| 公开仓 [ExampleApp/](https://github.com/INMO-X/BluetoothKit/tree/master/ExampleApp) | 可运行 Demo（CocoaPods 二进制 tag + 示例 UI） |
+| 公开仓 [Example/](https://github.com/INMO-X/BluetoothKit/tree/master/Example) | 可运行 Demo（CocoaPods 二进制 tag + 示例 UI） |
 
 宿主 App 须在 Info.plist 配置 **`NSBluetoothAlwaysUsageDescription`**；C100/C110 Wi‑Fi 同步相关能力见 [docs/PRIVACY.md](docs/PRIVACY.md)。

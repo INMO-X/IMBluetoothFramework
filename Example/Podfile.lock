@@ -11,7 +11,7 @@ PODS:
   - SSZipArchive (2.4.3)
 
 DEPENDENCIES:
-  - BluetoothKit (from `../`)
+  - BluetoothKit (from `https://github.com/INMO-X/BluetoothKit.git`, tag `0.1.0`)
 
 SPEC REPOS:
   trunk:
@@ -21,7 +21,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   BluetoothKit:
-    :path: "../"
+    :git: https://github.com/INMO-X/BluetoothKit.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  BluetoothKit:
+    :git: https://github.com/INMO-X/BluetoothKit.git
+    :tag: 0.1.0
 
 SPEC CHECKSUMS:
   BluetoothKit: 5a20b96835202c4cbd8100e832c84f0eb2e25b9c
@@ -29,6 +35,6 @@ SPEC CHECKSUMS:
   RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: ebb23e49b20b3cb1d1738bd734aa29ec0217d950
+PODFILE CHECKSUM: 44eb34e3425f28ad6d75854c329e15371c3dcd2e
 
 COCOAPODS: 1.16.2
