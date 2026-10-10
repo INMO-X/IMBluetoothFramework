@@ -4,6 +4,7 @@ INMO X 蓝牙 SDK：CoreBluetooth 封装、设备状态机与 `BluetoothService`
 
 - **iOS** 15.0+
 - **集成方式**：CocoaPods（`:git` + `:tag`）
+- **二进制形态**：**static XCFramework**（第三方 RxSwift / RxRelay / SSZipArchive 由 CocoaPods 拉取，不打进包内；宿主 static / dynamic 均可）
 
 公开仓：<https://github.com/INMO-X/BluetoothKit>
 
@@ -15,6 +16,8 @@ INMO X 蓝牙 SDK：CoreBluetooth 封装、设备状态机与 `BluetoothService`
 
 ```ruby
 platform :ios, '15.0'
+# static 或 dynamic 均可；与 INMOX 一致时可用：
+# use_frameworks! :linkage => :static
 use_frameworks!
 
 target 'YourApp' do
@@ -42,7 +45,7 @@ pod 'BluetoothKit/Devices/C100', :git => GIT, :tag => '0.1.0'
 
 隐私清单：`PrivacyInfo.xcprivacy` 嵌在 XCFramework 内，并额外以 CocoaPods resource bundle `BluetoothKit_PrivacyInfo` 提供（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）。
 
-Xcode 16+/27 SDK 下，若传递依赖仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，可在宿主 `Podfile` 增加与 Example 相同的 `post_install`（仅此一项，**无需**再改 RxSwift 的 `BUILD_LIBRARY_FOR_DISTRIBUTION`）：
+Xcode 16+/27 SDK 下，若传递依赖仍声明过低的 `IPHONEOS_DEPLOYMENT_TARGET`，可在宿主 `Podfile` 增加与 ExampleApp 相同的 `post_install`（仅此一项，**无需**再改 RxSwift 的 `BUILD_LIBRARY_FOR_DISTRIBUTION`）：
 
 ```ruby
 post_install do |installer|
@@ -84,7 +87,7 @@ CocoaPods 会拉取下列第三方库（版本以 podspec 为准）：
 |------|------|--------|
 | RxSwift | `~> 6.9.0` | 全部 |
 | RxRelay | `~> 6.9.0` | 全部 |
-| SSZipArchive | `~> 2.4.3` | **Full**、Devices/C100、C110 |
+| SSZipArchive | `~> 2.4` | **Full**、**Devices/C100** |
 
 系统框架（由 podspec 声明，无需单独 pod）：
 
@@ -121,7 +124,7 @@ device.stateStream
 device.send(command: C100DeviceCommand.takePhoto)
 ```
 
-绑定列表与「上次连接设备」默认写入 `UserDefaults`，key 前缀为 **`BluetoothKit.boundDevices.`**（按 userID 分区）。
+绑定列表与「上次连接设备」默认写入 `UserDefaults`，key 前缀为 **`BluetoothKit.boundDevices.`**（按 userID 分区）。若曾使用旧前缀 `IMBluetoothKit.boundDevices.*` 或 `IMBluetoothFramework.boundDevices.*`，SDK 会在首次读写时按该顺序自动迁移到 `BluetoothKit.boundDevices.*`。自定义 `keyPrefix` 不触发迁移。
 
 ---
 
@@ -131,6 +134,6 @@ device.send(command: C100DeviceCommand.takePhoto)
 |------|------|
 | [docs/USAGE.md](docs/USAGE.md) | 业务场景与公开 API 参考 |
 | [docs/PRIVACY.md](docs/PRIVACY.md) | Privacy manifest 与宿主 App Info.plist 要求 |
-| 公开仓 [Example/](https://github.com/INMO-X/BluetoothKit/tree/master/ExampleApp) | 可运行 Demo（CocoaPods 二进制 tag + 示例 UI） |
+| 公开仓 [ExampleApp/](https://github.com/INMO-X/BluetoothKit/tree/master/ExampleApp) | 可运行 Demo（CocoaPods 二进制 tag + 示例 UI） |
 
 宿主 App 须在 Info.plist 配置 **`NSBluetoothAlwaysUsageDescription`**；C100/C110 Wi‑Fi 同步相关能力见 [docs/PRIVACY.md](docs/PRIVACY.md)。

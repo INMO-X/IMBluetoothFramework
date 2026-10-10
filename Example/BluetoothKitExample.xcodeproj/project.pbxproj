@@ -105,7 +105,6 @@
 				AAC33C1F23142B2CD847255B /* Sources */,
 				EFE9591E8EF7E159122D24AF /* Resources */,
 				2E1ED99D1E4D118125DCB51D /* Frameworks */,
-				600CC60B667DC482E3F2F65C /* [CP] Embed Pods Frameworks */,
 				55010C347ABF6D8A7843D57B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -171,38 +170,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			outputPaths = (
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		600CC60B667DC482E3F2F65C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BluetoothKitExample/Pods-BluetoothKitExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C69706FCE2C747AB81185A43 /* [CP] Check Pods Manifest.lock */ = {
