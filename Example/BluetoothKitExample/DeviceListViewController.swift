@@ -1,13 +1,13 @@
 //
 //  DeviceListViewController.swift
-//  IMBluetoothKitExample
+//  BluetoothKitExample
 //
 //  service.devices + connectionState / reconnecting badges + C100 battery.
 //
 
 import UIKit
 import RxSwift
-import IMBluetoothKit
+import BluetoothKit
 
 final class DeviceListViewController: UIViewController {
 

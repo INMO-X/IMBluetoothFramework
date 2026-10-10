@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  IMBluetoothKitExample
+//  BluetoothKitExample
 //
 
 import UIKit

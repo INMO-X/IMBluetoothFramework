@@ -1,13 +1,13 @@
 //
 //  ScanViewController.swift
-//  IMBluetoothKitExample
+//  BluetoothKitExample
 //
 //  startScan(for: C100Factory()) + connect(firstConnect: true).
 //
 
 import UIKit
 import RxSwift
-import IMBluetoothKit
+import BluetoothKit
 
 final class ScanViewController: UIViewController {
 

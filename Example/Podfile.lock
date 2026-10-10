@@ -1,7 +1,7 @@
 PODS:
-  - IMBluetoothKit (0.1.0):
-    - IMBluetoothKit/Full (= 0.1.0)
-  - IMBluetoothKit/Full (0.1.0):
+  - BluetoothKit (0.1.0):
+    - BluetoothKit/Full (= 0.1.0)
+  - BluetoothKit/Full (0.1.0):
     - RxRelay (~> 6.9.0)
     - RxSwift (~> 6.9.0)
     - SSZipArchive (~> 2.4)
@@ -11,7 +11,7 @@ PODS:
   - SSZipArchive (2.4.3)
 
 DEPENDENCIES:
-  - IMBluetoothKit (from `../`)
+  - BluetoothKit (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -20,15 +20,15 @@ SPEC REPOS:
     - SSZipArchive
 
 EXTERNAL SOURCES:
-  IMBluetoothKit:
+  BluetoothKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IMBluetoothKit: 0f35a2dff30adab24f8750796a284cd15a566475
+  BluetoothKit: 5a20b96835202c4cbd8100e832c84f0eb2e25b9c
   RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
   RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: 6d8463e60842c07f63f162ff1beefa2f05fe67a1
+PODFILE CHECKSUM: 75a08c8cc5fa17f0d17b13fa019cc4a834439483
 
 COCOAPODS: 1.16.2

@@ -1,10 +1,10 @@
 //
 //  AppDelegate.swift
-//  IMBluetoothKitExample
+//  BluetoothKitExample
 //
 
 import UIKit
-import IMBluetoothKit
+import BluetoothKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

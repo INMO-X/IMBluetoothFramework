@@ -1,5 +1,5 @@
 #
-# BluetoothKitBinary.podspec
+# BluetoothKit.podspec
 # ------------------------------------------------------------------
 # 二进制交付版本：每个子规格对应一份预打包的 BluetoothKit.xcframework
 # （Full / Base / 单设备组合包），Swift module 统一为 BluetoothKit。

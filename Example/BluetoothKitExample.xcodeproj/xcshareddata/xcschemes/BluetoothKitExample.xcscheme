@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AB4F51237A4E29CB80F913D"
-               BuildableName = "IMBluetoothKitExample.app"
-               BlueprintName = "IMBluetoothKitExample"
-               ReferencedContainer = "container:IMBluetoothKitExample.xcodeproj">
+               BlueprintIdentifier = "082AFAF60E5B28FD91267EE3"
+               BuildableName = "BluetoothKitExample.app"
+               BlueprintName = "BluetoothKitExample"
+               ReferencedContainer = "container:BluetoothKitExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB4F51237A4E29CB80F913D"
-            BuildableName = "IMBluetoothKitExample.app"
-            BlueprintName = "IMBluetoothKitExample"
-            ReferencedContainer = "container:IMBluetoothKitExample.xcodeproj">
+            BlueprintIdentifier = "082AFAF60E5B28FD91267EE3"
+            BuildableName = "BluetoothKitExample.app"
+            BlueprintName = "BluetoothKitExample"
+            ReferencedContainer = "container:BluetoothKitExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB4F51237A4E29CB80F913D"
-            BuildableName = "IMBluetoothKitExample.app"
-            BlueprintName = "IMBluetoothKitExample"
-            ReferencedContainer = "container:IMBluetoothKitExample.xcodeproj">
+            BlueprintIdentifier = "082AFAF60E5B28FD91267EE3"
+            BuildableName = "BluetoothKitExample.app"
+            BlueprintName = "BluetoothKitExample"
+            ReferencedContainer = "container:BluetoothKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AB4F51237A4E29CB80F913D"
-            BuildableName = "IMBluetoothKitExample.app"
-            BlueprintName = "IMBluetoothKitExample"
-            ReferencedContainer = "container:IMBluetoothKitExample.xcodeproj">
+            BlueprintIdentifier = "082AFAF60E5B28FD91267EE3"
+            BuildableName = "BluetoothKitExample.app"
+            BlueprintName = "BluetoothKitExample"
+            ReferencedContainer = "container:BluetoothKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

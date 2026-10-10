@@ -49379,2177 +49379,2156 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
       "kind": "StringLiteral",
       "offset": 2926,
       "length": 92,
       "value": "\"(?<![0-9A-Fa-f])[0-9A-Fa-f]{2}([:-])(?:[0-9A-Fa-f]{2}\\1){4}[0-9A-Fa-f]{2}(?![0-9A-Fa-f])\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
       "kind": "StringLiteral",
       "offset": 3096,
       "length": 21,
       "value": "\"^[0-9A-Fa-f]{12}$\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AudioRouteMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 3697,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "BooleanLiteral",
       "offset": 1576,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 1618,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 1666,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 1712,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 1762,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "BooleanLiteral",
       "offset": 1813,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/AutoReconnectPolicy.swift",
       "kind": "BooleanLiteral",
       "offset": 2423,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "StringLiteral",
       "offset": 2666,
       "length": 28,
       "value": "\"bluetoothkit.device.reduce\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "Dictionary",
       "offset": 2810,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 2984,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 5050,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "BooleanLiteral",
       "offset": 7672,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 14296,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/BaseReducerDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 15089,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothCmdThread.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothCmdThread.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 5,
       "value": "\"cmd\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothDevicePersistence.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothDevicePersistence.swift",
       "kind": "StringLiteral",
-      "offset": 7928,
-      "length": 30,
-      "value": "\"IMBluetoothKit.boundDevices.\""
-    },
-    {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothDevicePersistence.swift",
-      "kind": "StringLiteral",
-      "offset": 8020,
-      "length": 36,
-      "value": "\"IMBluetoothFramework.boundDevices.\""
-    },
-    {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothDevicePersistence.swift",
-      "kind": "StringLiteral",
-      "offset": 8099,
+      "offset": 7961,
       "length": 28,
       "value": "\"BluetoothKit.boundDevices.\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothDevicePersistence.swift",
-      "kind": "StringLiteral",
-      "offset": 8217,
-      "length": 28,
-      "value": "\"BluetoothKit.boundDevices.\""
-    },
-    {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 4,
       "value": "\"TX\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 4,
       "value": "\"RX\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 628,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 8,
       "value": "\"Common\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 1628,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "StringLiteral",
       "offset": 1808,
       "length": 18,
       "value": "\"0123456789ABCDEF\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Logger\/BluetoothLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2273,
       "length": 4,
       "value": "0x20"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Array",
       "offset": 502,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 793,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "StringLiteral",
       "offset": 1606,
       "length": 28,
       "value": "\"bluetoothkit.central.queue\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2007,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2752,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 3283,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 3421,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 3699,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 4569,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 5261,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Array",
       "offset": 5688,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "FloatLiteral",
       "offset": 5844,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "Dictionary",
       "offset": 6475,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothManager.swift",
       "kind": "FloatLiteral",
       "offset": 20141,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothPeripheral.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothPeripheral.swift",
       "kind": "IntegerLiteral",
       "offset": 2797,
       "length": 3,
       "value": "-55"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothPeripheral.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/BluetoothPeripheral.swift",
       "kind": "Dictionary",
       "offset": 2869,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 1256,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 1338,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 1494,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "StringLiteral",
       "offset": 4801,
       "length": 23,
       "value": "\"bluetoothkit.rx.parse\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 5103,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 5419,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "IntegerLiteral",
       "offset": 5535,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 5695,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "StringLiteral",
       "offset": 5794,
       "length": 32,
       "value": "\"bluetoothkit.service.reconnect\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "FloatLiteral",
       "offset": 6030,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 6447,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "IntegerLiteral",
       "offset": 7175,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "FloatLiteral",
       "offset": 7233,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 7723,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 8077,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 8409,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 8750,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 9026,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 9179,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "FloatLiteral",
       "offset": 9644,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Array",
       "offset": 10340,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 10491,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "FloatLiteral",
       "offset": 10973,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 11140,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "FloatLiteral",
       "offset": 11494,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 11652,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "Dictionary",
       "offset": 11818,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 12247,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 25171,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 26505,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 27466,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/BluetoothService.swift",
       "kind": "BooleanLiteral",
       "offset": 29642,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Device\/DeviceFactory.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Device\/DeviceFactory.swift",
       "kind": "Array",
       "offset": 3485,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Protocol\/DeviceFilter.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Protocol\/DeviceFilter.swift",
       "kind": "IntegerLiteral",
       "offset": 2414,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Protocol\/DeviceFilter.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Protocol\/DeviceFilter.swift",
       "kind": "IntegerLiteral",
       "offset": 3059,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "StringLiteral",
       "offset": 1760,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "Dictionary",
       "offset": 2510,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 2602,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 2803,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "BooleanLiteral",
       "offset": 2836,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "IntegerLiteral",
       "offset": 2869,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "IntegerLiteral",
       "offset": 2895,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "IntegerLiteral",
       "offset": 2924,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/EASessionTransport.swift",
       "kind": "Dictionary",
       "offset": 2987,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryCenter.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryCenter.swift",
       "kind": "Array",
       "offset": 1678,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryCenter.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryCenter.swift",
       "kind": "BooleanLiteral",
       "offset": 1708,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryIdentityStore.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryIdentityStore.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 32,
       "value": "\"bluetoothkit.ea.serialToDevice\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryIdentityStore.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryIdentityStore.swift",
       "kind": "StringLiteral",
       "offset": 1048,
       "length": 28,
       "value": "\"bluetoothkit.ea.mfiDevices\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryInfo.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Core\/EA\/ExternalAccessoryInfo.swift",
       "kind": "StringLiteral",
       "offset": 4139,
       "length": 38,
       "value": "\"6E5D2F1A-3C7B-4B8E-9A40-1C2D3E4F5A6B\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 449,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
       "kind": "BooleanLiteral",
       "offset": 648,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
       "kind": "BooleanLiteral",
       "offset": 764,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Service\/HeartbeatPolicy.swift",
       "kind": "FloatLiteral",
       "offset": 815,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 628,
       "length": 4,
       "value": "0x20"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 690,
       "length": 4,
       "value": "0x21"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 780,
       "length": 4,
       "value": "0x22"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 882,
       "length": 4,
       "value": "0x23"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 979,
       "length": 4,
       "value": "0x24"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1041,
       "length": 4,
       "value": "0x25"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1114,
       "length": 4,
       "value": "0x26"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1173,
       "length": 4,
       "value": "0x27"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1285,
       "length": 4,
       "value": "0x28"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1394,
       "length": 4,
       "value": "0x29"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1509,
       "length": 4,
       "value": "0x2A"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1544,
       "length": 4,
       "value": "0x2B"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1603,
       "length": 4,
       "value": "0x2C"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1705,
       "length": 4,
       "value": "0x2D"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1740,
       "length": 4,
       "value": "0x2E"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1794,
       "length": 4,
       "value": "0x2F"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1853,
       "length": 4,
       "value": "0x30"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 1933,
       "length": 4,
       "value": "0x31"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2013,
       "length": 4,
       "value": "0x32"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2063,
       "length": 4,
       "value": "0x33"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 4,
       "value": "0x34"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2286,
       "length": 4,
       "value": "0x35"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2321,
       "length": 4,
       "value": "0x36"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2387,
       "length": 4,
       "value": "0x37"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2447,
       "length": 4,
       "value": "0x38"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2516,
       "length": 4,
       "value": "0x39"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2575,
       "length": 4,
       "value": "0x3A"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2634,
       "length": 4,
       "value": "0x3B"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2705,
       "length": 4,
       "value": "0x3C"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2793,
       "length": 4,
       "value": "0x3E"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 2925,
       "length": 4,
       "value": "0x80"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3029,
       "length": 4,
       "value": "0x81"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3195,
       "length": 4,
       "value": "0xA0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3230,
       "length": 4,
       "value": "0xA1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3265,
       "length": 4,
       "value": "0xA2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3300,
       "length": 4,
       "value": "0xA3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3624,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3720,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3768,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3816,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3896,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 3973,
       "length": 4,
       "value": "0x06"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4019,
       "length": 4,
       "value": "0x07"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4061,
       "length": 4,
       "value": "0x08"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4103,
       "length": 4,
       "value": "0x09"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4145,
       "length": 4,
       "value": "0x0A"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4202,
       "length": 4,
       "value": "0x0B"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4286,
       "length": 4,
       "value": "0x0C"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4319,
       "length": 4,
       "value": "0x0D"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4378,
       "length": 4,
       "value": "0x0E"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4437,
       "length": 4,
       "value": "0x0F"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4479,
       "length": 4,
       "value": "0x10"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4520,
       "length": 4,
       "value": "0x11"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4553,
       "length": 4,
       "value": "0x12"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4586,
       "length": 4,
       "value": "0x13"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4619,
       "length": 4,
       "value": "0x14"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4652,
       "length": 4,
       "value": "0x15"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4763,
       "length": 4,
       "value": "0x16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4821,
       "length": 4,
       "value": "0x17"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4911,
       "length": 4,
       "value": "0x18"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4953,
       "length": 4,
       "value": "0x19"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 4995,
       "length": 4,
       "value": "0x1A"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5090,
       "length": 4,
       "value": "0x1B"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5181,
       "length": 4,
       "value": "0x1C"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5214,
       "length": 4,
       "value": "0x1D"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5247,
       "length": 4,
       "value": "0x1E"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5280,
       "length": 4,
       "value": "0x1F"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5313,
       "length": 4,
       "value": "0x20"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5366,
       "length": 4,
       "value": "0x21"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5416,
       "length": 4,
       "value": "0x22"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5466,
       "length": 4,
       "value": "0x23"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5562,
       "length": 4,
       "value": "0x24"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5603,
       "length": 4,
       "value": "0x25"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5748,
       "length": 4,
       "value": "0xA0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5887,
       "length": 4,
       "value": "0xA1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 5993,
       "length": 4,
       "value": "0xA2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6134,
       "length": 4,
       "value": "0xA3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6170,
       "length": 4,
       "value": "0xFE"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6218,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6357,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6384,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6411,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6438,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6466,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6494,
       "length": 2,
       "value": "65"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6522,
       "length": 3,
       "value": "253"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6551,
       "length": 3,
       "value": "254"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6580,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6714,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6750,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6773,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6796,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6819,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6967,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 6995,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7023,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7051,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7079,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7107,
       "length": 4,
       "value": "0x06"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7135,
       "length": 4,
       "value": "0x07"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7163,
       "length": 4,
       "value": "0x08"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7282,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7308,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7334,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7360,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7386,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7412,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7438,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7464,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7490,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7516,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7542,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7635,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7701,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7728,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7755,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7868,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7909,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 7957,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8005,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8053,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8196,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8219,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8342,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8439,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8466,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8581,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8604,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8627,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8650,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8673,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8696,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8789,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8809,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8940,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 8987,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9034,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9185,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9238,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9338,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9362,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9459,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9483,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9599,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9618,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9738,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9765,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9792,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9837,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9867,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9894,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9921,
       "length": 4,
       "value": "0x06"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9948,
       "length": 4,
       "value": "0x07"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 9975,
       "length": 4,
       "value": "0x08"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10035,
       "length": 4,
       "value": "0x09"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10074,
       "length": 4,
       "value": "0x0a"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10103,
       "length": 4,
       "value": "0x0b"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10130,
       "length": 4,
       "value": "0x0c"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10254,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10291,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10328,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10365,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10409,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 10453,
       "length": 4,
       "value": "0x06"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 11479,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 11504,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 11529,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 11554,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20611,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20616,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20684,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20689,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20757,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20762,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20830,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20835,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20903,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20908,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20976,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 20981,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 21049,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01AudioCmd.swift",
       "kind": "IntegerLiteral",
       "offset": 21054,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 38,
       "value": "\"66666666-6666-6666-6666-666666666666\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 38,
       "value": "\"77777777-7777-7777-7777-777777777777\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 1141,
       "length": 6,
       "value": "\"FDB3\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 6,
       "value": "\"FF16\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 1259,
       "length": 6,
       "value": "\"FF17\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 1318,
       "length": 6,
       "value": "\"FF18\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01BesUUIDs.swift",
       "kind": "StringLiteral",
       "offset": 1377,
       "length": 6,
       "value": "\"FF20\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01CommandBuilder.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01CommandBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1399,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01CommandBuilder.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01CommandBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1809,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Device.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Device.swift",
       "kind": "StringLiteral",
       "offset": 4282,
       "length": 35,
       "value": "\"com.inmo.x.XA01VoiceWakeRequested\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 6,
       "value": "0x0642"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 1260,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 1319,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 1969,
       "length": 4,
       "value": "0b00"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 2002,
       "length": 4,
       "value": "0b01"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceBeacon.swift",
       "kind": "IntegerLiteral",
       "offset": 2035,
       "length": 4,
       "value": "0b10"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
       "kind": "Array",
       "offset": 2537,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
       "kind": "Array",
       "offset": 2659,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01DeviceState.swift",
       "kind": "Array",
       "offset": 2805,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
       "kind": "IntegerLiteral",
       "offset": 980,
       "length": 3,
       "value": "-90"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
       "kind": "IntegerLiteral",
       "offset": 1725,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Factory.swift",
       "kind": "Array",
       "offset": 1861,
       "length": 19,
       "value": "[\"inmo e13v\", \"e13v\"]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "IntegerLiteral",
       "offset": 946,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "IntegerLiteral",
       "offset": 998,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "IntegerLiteral",
       "offset": 1501,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "IntegerLiteral",
       "offset": 1546,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01Frame.swift",
       "kind": "Dictionary",
       "offset": 4866,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01KnownProductId.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01KnownProductId.swift",
       "kind": "IntegerLiteral",
       "offset": 959,
       "length": 6,
       "value": "0x0001"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.2pHMA5Znhp\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01KnownProductId.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/bluetoothkit-build-XXXX.cuLnsQqkad\/XA01\/Sources\/BluetoothKit\/Devices\/XA01\/XA01KnownProductId.swift",
       "kind": "IntegerLiteral",
       "offset": 1216,
       "length": 6,

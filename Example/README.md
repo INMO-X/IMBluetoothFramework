@@ -1,4 +1,4 @@
-# IMBluetoothKit ExampleApp
+# BluetoothKit Example
 
 Minimal iOS 15+ demo that binds a user, reconnects the last device, lists cached devices with connection / reconnecting badges, scans C100, connects with `firstConnect: true`, shows battery from `C100DeviceState`, and unbinds.
 
@@ -11,20 +11,20 @@ Minimal iOS 15+ demo that binds a user, reconnects the last device, lists cached
 ## Run
 
 ```bash
-cd ExampleApp
+cd Example
 pod install
-open IMBluetoothKitExample.xcworkspace
+open BluetoothKitExample.xcworkspace
 ```
 
-Select scheme **IMBluetoothKitExample**, pick a Simulator or device, then Run.
+Select scheme **BluetoothKitExample**, pick a Simulator or device, then Run.
 
 Or build from CLI:
 
 ```bash
-cd ExampleApp
+cd Example
 pod install
-xcodebuild -workspace IMBluetoothKitExample.xcworkspace \
-  -scheme IMBluetoothKitExample \
+xcodebuild -workspace BluetoothKitExample.xcworkspace \
+  -scheme BluetoothKitExample \
   -destination 'generic/platform=iOS Simulator' \
   build
 ```
@@ -37,4 +37,4 @@ xcodebuild -workspace IMBluetoothKitExample.xcworkspace \
 4. **Scan** → `startScan(for: C100Factory())` → tap a row → `connect(firstConnect: true)`.
 5. **Unbind** → `unbindUser()` and return to login.
 
-The Podfile pulls **IMBluetoothKit** from the public binary GitHub repo (`:git` + `:tag`), with `RxSwift` / `RxRelay` pinned `~> 6.9`. Match the tag to the SDK version you integrate in your app.
+The Podfile pulls **BluetoothKit** from the public binary GitHub repo (`:git` + `:tag`), with `RxSwift` / `RxRelay` pinned `~> 6.9`. Match the tag to the SDK version you integrate in your app.

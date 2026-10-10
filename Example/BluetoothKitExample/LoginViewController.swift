@@ -1,12 +1,12 @@
 //
 //  LoginViewController.swift
-//  IMBluetoothKitExample
+//  BluetoothKitExample
 //
 //  bindUser + reconnectLast demo.
 //
 
 import UIKit
-import IMBluetoothKit
+import BluetoothKit
 
 final class LoginViewController: UIViewController {
 

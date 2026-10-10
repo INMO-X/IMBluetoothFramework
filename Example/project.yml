@@ -1,4 +1,4 @@
-name: IMBluetoothKitExample
+name: BluetoothKitExample
 options:
   bundleIdPrefix: com.inmo
   deploymentTarget:
@@ -9,26 +9,26 @@ settings:
   base:
     SWIFT_VERSION: "5.0"
 targets:
-  IMBluetoothKitExample:
+  BluetoothKitExample:
     type: application
     platform: iOS
     deploymentTarget: "15.0"
     sources:
-      - path: IMBluetoothKitExample
+      - path: BluetoothKitExample
         excludes:
           - "**/*.md"
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.inmo.IMBluetoothKitExample
+        PRODUCT_BUNDLE_IDENTIFIER: com.inmo.BluetoothKitExample
         TARGETED_DEVICE_FAMILY: "1,2"
-        INFOPLIST_FILE: IMBluetoothKitExample/Info.plist
+        INFOPLIST_FILE: BluetoothKitExample/Info.plist
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UILaunchStoryboardName: LaunchScreen
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
         INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: 需要蓝牙以连接 INMO 眼镜设备
         CODE_SIGN_STYLE: Automatic
     info:
-      path: IMBluetoothKitExample/Info.plist
+      path: BluetoothKitExample/Info.plist
       properties:
         NSBluetoothAlwaysUsageDescription: 需要蓝牙以连接 INMO 眼镜设备
         UIApplicationSceneManifest:
@@ -39,9 +39,9 @@ targets:
                 UISceneDelegateClassName: "$(PRODUCT_MODULE_NAME).SceneDelegate"
         UILaunchStoryboardName: LaunchScreen
 schemes:
-  IMBluetoothKitExample:
+  BluetoothKitExample:
     build:
       targets:
-        IMBluetoothKitExample: all
+        BluetoothKitExample: all
     run:
       config: Debug
