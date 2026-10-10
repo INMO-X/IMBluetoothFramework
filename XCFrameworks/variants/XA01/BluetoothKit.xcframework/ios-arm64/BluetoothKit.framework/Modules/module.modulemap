@@ -1,0 +1,3 @@
+framework module BluetoothKit {
+  header "BluetoothKit-Swift.h"
+}

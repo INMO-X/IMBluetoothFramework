@@ -1,3 +1,0 @@
-framework module IMBluetoothKit {
-  header "IMBluetoothKit-Swift.h"
-}

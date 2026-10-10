@@ -1,4 +1,4 @@
-# Privacy (IMBluetoothKit)
+# Privacy (BluetoothKit)
 
 This document describes what the framework’s Apple privacy manifest declares and what the **host app** must configure separately.
 
@@ -11,14 +11,14 @@ The framework ships a privacy manifest that declares:
 | `NSPrivacyTracking` | `false` — the framework does not track users across apps or websites. |
 | `NSPrivacyTrackingDomains` | Empty — no tracking domains. |
 | `NSPrivacyCollectedDataTypes` | Empty — the framework does not declare collection of data types for App Store privacy labeling via this manifest. |
-| `NSPrivacyAccessedAPITypes` | **UserDefaults** (`NSPrivacyAccessedAPICategoryUserDefaults`) with reason **`CA92.1`** — access to app-scoped preferences and device state stored on behalf of the host app (bound devices and last-connected peripheral under keys prefixed with **`IMBluetoothKit.boundDevices.`** in `UserDefaultsBluetoothPersistence`, plus C100 classic-link state in `C100ClassicLinkDetector`), not for cross-app tracking. |
+| `NSPrivacyAccessedAPITypes` | **UserDefaults** (`NSPrivacyAccessedAPICategoryUserDefaults`) with reason **`CA92.1`** — access to app-scoped preferences and device state stored on behalf of the host app (bound devices and last-connected peripheral under keys prefixed with **`BluetoothKit.boundDevices.`** in `UserDefaultsBluetoothPersistence`, plus C100 classic-link state in `C100ClassicLinkDetector`), not for cross-app tracking. |
 
-The manifest file lives at `IMBluetoothKit/PrivacyInfo.xcprivacy` in the source tree.
+The manifest file lives at `BluetoothKit/PrivacyInfo.xcprivacy` in the source tree.
 
 **Binary (CocoaPods) consumers receive it in two places:**
 
-1. **Inside each XCFramework slice** — `IMBluetoothKit.framework/PrivacyInfo.xcprivacy` (Xcode / App Store privacy aggregation reads this). Expand the `.xcframework` → `ios-arm64` → `IMBluetoothKit.framework` in Finder if you need to inspect it; CocoaPods Project Navigator often does **not** list files inside vendored frameworks.
-2. **As a CocoaPods resource bundle** — `IMBluetoothKit_PrivacyInfo` (file `PrivacyInfo.xcprivacy` at the pod root), so it also appears under Pods after `pod install`.
+1. **Inside each XCFramework slice** — `BluetoothKit.framework/PrivacyInfo.xcprivacy` (Xcode / App Store privacy aggregation reads this). Expand the `.xcframework` → `ios-arm64` → `BluetoothKit.framework` in Finder if you need to inspect it; CocoaPods Project Navigator often does **not** list files inside vendored frameworks.
+2. **As a CocoaPods resource bundle** — `BluetoothKit_PrivacyInfo` (file `PrivacyInfo.xcprivacy` at the pod root), so it also appears under Pods after `pod install`.
 
 ## Host app requirements (Info.plist & capabilities)
 
@@ -39,4 +39,4 @@ Consult Apple’s current documentation and your app’s networking architecture
 
 ## Tracking
 
-IMBluetoothKit does **not** perform user tracking as defined by Apple’s privacy manifest (`NSPrivacyTracking` is `false`). Host apps remain responsible for their own analytics, advertising, and any additional privacy declarations beyond this framework.
+BluetoothKit does **not** perform user tracking as defined by Apple’s privacy manifest (`NSPrivacyTracking` is `false`). Host apps remain responsible for their own analytics, advertising, and any additional privacy declarations beyond this framework.
